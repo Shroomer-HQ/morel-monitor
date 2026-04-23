@@ -1,7 +1,27 @@
 {
-  "generated_at_utc": "2026-04-23T05:07:33+00:00",
+  "generated_at_utc": "2026-04-23T05:12:44+00:00",
   "generated_for_date": "2026-04-23",
-  "source": null,
-  "error": "HTTPError: HTTP Error 403: Forbidden",
-  "digs": []
+  "source": "https://razorclamsociety.org/dig-dates-time/",
+  "error": null,
+  "digs": [
+    {
+      "date": "2026-04-23",
+      "weekday": "Thursday",
+      "low_tide_local": "12:11 PM",
+      "low_tide_24h": "12:11",
+      "low_tide_ft": -0.2,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-04-23T12:11:00-07:00",
+      "priority": "standard",
+      "tide_score": 68.0,
+      "in_daylight": true,
+      "sunrise_local": "6:21 AM",
+      "sunset_local": "8:08 PM"
+    }
+  ]
 }

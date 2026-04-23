@@ -8,4 +8,14 @@ X-WR-TIMEZONE:America/Los_Angeles
 X-WR-CALDESC:WDFW-approved razor clam dig dates with tide + daylight scoring.
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:2178a1f7774db894bcac8e6e7e625221@morel-monitor
+DTSTAMP:20260423T051244Z
+DTSTART:20260423T171100Z
+DTEND:20260423T201100Z
+SUMMARY:🌊 Razor clams — Long Beach\, Twin Harbors\, Copalis [standard]
+DESCRIPTION:Low tide: 12:11 PM @ -0.2 ft\nDaylight: 6:21 AM — 8:08 PM\nDig falls in: daylight\nPriority: standard (tide score 68.0/100)\nBeaches: Long Beach\, Twin Harbors\, Copalis\nRecommended window: 10:11 AM–1:11 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-23 by razor-clam-monitor.
+LOCATION:Long Beach\, Twin Harbors\, Copalis\, Washington coast
+TRANSP:OPAQUE
+END:VEVENT
 END:VCALENDAR
