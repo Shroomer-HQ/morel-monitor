@@ -37,9 +37,13 @@ REPO_ROOT = Path(__file__).parent
 OUT_JSON = REPO_ROOT / "razor-clams.json"
 OUT_ICS = REPO_ROOT / "razor-clams.ics"
 
-WDFW_SEASONS_URL = "https://wdfw.wa.gov/fishing/shellfishing-regulations/razor-clams"
-# Fallback: the newsroom page lists recent releases with URLs we can follow.
-WDFW_NEWSROOM = "https://wdfw.wa.gov/newsroom/news-releases"
+# Primary source: Razor Clam Society aggregates WDFW-approved digs and is
+# more scraper-friendly than WDFW's own site (which 403s datacenter IPs).
+# Fallback: direct WDFW page in case RCS is down or stale.
+SOURCES = [
+    ("razor_clam_society", "https://razorclamsociety.org/dig-dates-time/"),
+    ("wdfw", "https://wdfw.wa.gov/fishing/shellfishing-regulations/razor-clams"),
+]
 
 USER_AGENT = (
     "Mozilla/5.0 (compatible; razor-clam-monitor/1.0; "
@@ -136,14 +140,23 @@ def parse_digs(text: str, reference_year: int) -> list:
             tide = float(m.group("tide"))
 
             beaches_raw = m.group("beaches").strip().rstrip(".").rstrip(",")
+            # Strip parenthetical annotations like "(Long Beach Razor Clam Festival)"
+            # or "(digging extended until 2 p.m.)".
+            beaches_raw = re.sub(r"\s*\([^)]*\)", "", beaches_raw).strip().rstrip(",")
             beach_tokens = re.split(r",\s*(?:and\s+)?|\s+and\s+", beaches_raw)
-            beach_list = [b.strip() for b in beach_tokens if b.strip()]
-            # Normalize: strip trailing punctuation, match against known beaches
-            beach_list = [
-                b for b in beach_list
-                if any(b.lower().startswith(known.lower()) for known in BEACHES)
-                or b in BEACHES
-            ]
+            # Normalize each token to a known beach name if it starts with one.
+            beach_list = []
+            for raw_tok in beach_tokens:
+                tok = raw_tok.strip().rstrip(".")
+                if not tok:
+                    continue
+                matched = None
+                for known in BEACHES:
+                    if tok.lower() == known.lower() or tok.lower().startswith(known.lower()):
+                        matched = known
+                        break
+                if matched and matched not in beach_list:
+                    beach_list.append(matched)
 
             # Year inference: dates more than 180 days in the past probably belong
             # to next year.
@@ -367,16 +380,27 @@ def main():
 
     digs = []
     source = None
-    error = None
-    try:
-        html = http_get(WDFW_SEASONS_URL)
-        text = strip_html(html)
-        digs = parse_digs(text, today.year)
-        source = WDFW_SEASONS_URL
-        print(f"[ok] Parsed {len(digs)} dig(s) from WDFW seasons page")
-    except (URLError, HTTPError) as e:
-        error = f"{type(e).__name__}: {e}"
-        print(f"[err] WDFW fetch failed: {error}", file=sys.stderr)
+    errors = []
+
+    for source_name, url in SOURCES:
+        try:
+            html = http_get(url)
+            text = strip_html(html)
+            parsed = parse_digs(text, today.year)
+            if parsed:
+                digs = parsed
+                source = url
+                print(f"[ok] {source_name}: parsed {len(parsed)} dig(s) from {url}")
+                break
+            else:
+                errors.append(f"{source_name}: 0 digs found (no parse matches)")
+                print(f"[warn] {source_name}: fetched OK but no digs parsed", file=sys.stderr)
+        except (URLError, HTTPError) as e:
+            msg = f"{source_name}: {type(e).__name__}: {e}"
+            errors.append(msg)
+            print(f"[err] {msg}", file=sys.stderr)
+
+    error = "; ".join(errors) if errors and not digs else None
 
     # Keep only upcoming digs
     digs = [d for d in digs if d["date"] >= today_iso]
@@ -387,10 +411,19 @@ def main():
         score = score_dig(dig)
         enriched.append({**dig, **score})
 
-    # Preserve previous data on scrape failure (avoid wiping the calendar)
-    if error and OUT_JSON.exists():
-        print("[info] Scrape failed — keeping existing data.json and calendar.ics in place.", file=sys.stderr)
-        return 0  # Soft success: workflow continues, old data retained
+    # Preserve previous outputs if all sources failed — don't wipe calendar
+    if not digs and OUT_ICS.exists():
+        print("[info] All sources failed — preserving existing outputs.", file=sys.stderr)
+        # Still update the JSON to log the failure
+        OUT_JSON.write_text(json.dumps({
+            "generated_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "generated_for_date": today_iso,
+            "source": None,
+            "error": error,
+            "digs": [],
+            "note": "All sources failed; previous calendar.ics retained.",
+        }, indent=2))
+        return 0
 
     OUT_JSON.write_text(json.dumps({
         "generated_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
