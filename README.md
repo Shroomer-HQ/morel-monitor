@@ -1,11 +1,15 @@
-# Morel Monitor
+# WA Foraging Monitor
 
-An automated foraging-window detector for post-wildfire burn scars in Washington State. Pulls daily weather from Open-Meteo for each tracked burn, evaluates qualifying conditions against a tunable criteria file, identifies multi-day foraging windows, and publishes them to:
+Two automated trackers for Washington State foraging opportunities, running in one repo:
 
-- **`index.html`** — a dashboard at `https://shroomer-hq.github.io/morel-monitor`
-- **`calendar.ics`** — an iCal feed you can subscribe to in Google Calendar
+1. **Morel monitor** — watches post-wildfire burn scars for weather conditions conducive to morel fruiting, publishes multi-day foraging *windows* to `calendar.ics`.
+2. **Razor clam monitor** — scrapes WDFW-announced dig dates, scores each dig by tide depth and daylight alignment, publishes events to `razor-clams.ics`.
 
-Runs automatically every morning via GitHub Actions.
+Both run automatically every morning via GitHub Actions and publish to:
+
+- **`index.html`** — a dashboard at `https://shroomer-hq.github.io/morel-monitor` (morels only for now — razor clams are calendar-only)
+- **`calendar.ics`** — morel foraging windows
+- **`razor-clams.ics`** — razor clam dig events
 
 ## Setup (one time)
 
@@ -27,29 +31,44 @@ Drop everything into the `morel-monitor` repo on your `main` branch. See the par
 - Repo **Actions** tab → **Morning Check** → **Run workflow**
 - Once it finishes, `data.json` and `calendar.ics` will exist in the repo and the dashboard will have data.
 
-### 5. Subscribe Google Calendar to the feed
-- Copy this URL: `https://shroomer-hq.github.io/morel-monitor/calendar.ics`
+### 5. Subscribe Google Calendar to the feed(s)
+- **Morel windows:** `https://shroomer-hq.github.io/morel-monitor/calendar.ics`
+- **Razor clam digs:** `https://shroomer-hq.github.io/morel-monitor/razor-clams.ics`
 - Google Calendar → left sidebar → **Other calendars** → **+** → **From URL**
-- Paste the URL and **Add calendar**
-- Google polls the feed every few hours — new windows show up automatically, and cancelled windows disappear.
+- Paste each URL and **Add calendar** (subscribe to both, or just the one you want)
+- Google polls the feed every few hours — new windows/digs show up automatically, and cancelled ones disappear.
 
 ## How it works
 
+### Morel monitor
 - **`burns.json`** — list of burn locations with coordinates, elevation, year.
 - **`criteria.json`** — qualifying criteria for a foraging day (temperature band, trailing rainfall, no-freeze window) and window definition (3+ consecutive qualifying days).
 - **`agent.py`** — fetches 14 days of trailing observations + 7 days of forecast from Open-Meteo for each burn, evaluates each day, finds consecutive runs.
-- **`.github/workflows/morning-check.yml`** — runs `agent.py` at 7am Pacific daily (14:00 UTC).
+
+### Razor clam monitor
+- **`razor_clams.py`** — scrapes WDFW's razor clam seasons page, parses dig date entries, scores each by tide depth and daylight alignment, generates calendar events 2h before to 1h after each low tide.
+- **Priority classification:**
+  - 🦪 **priority** — tide ≤ -0.5 ft AND dig time in daylight
+  - 🌊 **standard** — tide ≤ +0.5 ft AND dig time in daylight
+  - 🌙 **marginal (dark)** — tide ≤ +0.5 ft but dig is in the dark
+  - **·  low** — shallower tide, unlikely to be productive
+
+### Scheduling
+- **`.github/workflows/morning-check.yml`** — runs both scripts at 7am Pacific daily (14:00 UTC).
 
 ## Tuning
 
-Edit `criteria.json` to adjust what counts as a qualifying day. Changes take effect on the next run.
+**Morels:** Edit `criteria.json` to adjust what counts as a qualifying day. Changes take effect on the next run.
 
 Edit `burns.json` to add/remove burn locations or refine coordinates. The `pioneer` entry has placeholder coordinates — verify and update before relying on it.
+
+**Razor clams:** The scoring thresholds live at the top of `razor_clams.py` in the `score_dig` function. Adjust `tide` cutoffs or daylight logic there if you want to re-classify what counts as priority vs standard.
 
 ## Running locally
 
 ```bash
-python3 agent.py
+python3 agent.py          # Morel monitor
+python3 razor_clams.py    # Razor clam monitor
 ```
 
 No dependencies beyond the Python standard library.
