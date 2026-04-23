@@ -1,0 +1,38 @@
+name: Morning Check
+
+on:
+  schedule:
+    # 14:00 UTC = 7:00 AM Pacific during DST (PDT, UTC-7).
+    # Switches to 6:00 AM PST in November; easy to adjust then.
+    - cron: "0 14 * * *"
+  workflow_dispatch:  # Lets you trigger manually from the Actions tab
+
+permissions:
+  contents: write  # Needed to commit updated data.json and calendar.ics
+
+jobs:
+  morning-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run agent
+        run: python agent.py
+
+      - name: Commit updated outputs
+        run: |
+          git config user.name "morel-monitor-bot"
+          git config user.email "actions@github.com"
+          git add data.json calendar.ics
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: daily update $(date -u +%Y-%m-%d)"
+            git push
+          fi
