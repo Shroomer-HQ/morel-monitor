@@ -1,0 +1,18 @@
+{
+  "_comment": "Qualifying criteria for a morel foraging day. A day 'qualifies' if ALL conditions are met. A 'window' is 3+ consecutive qualifying days. Temperatures in °F, rainfall in inches.",
+  "daily_conditions": {
+    "temp_max_min_f": 55,
+    "temp_max_max_f": 78,
+    "temp_min_floor_f": 34,
+    "trailing_rain_14d_min_in": 1.0,
+    "trailing_rain_3d_min_in": 0.05,
+    "no_freeze_trailing_days": 7,
+    "freeze_threshold_f": 30
+  },
+  "window": {
+    "min_consecutive_days": 3,
+    "min_lead_time_days": 0
+  },
+  "lookback_days": 14,
+  "forecast_days": 7
+}

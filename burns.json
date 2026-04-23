@@ -1,0 +1,89 @@
+{
+  "_comment": "Edit coordinates, elevations, and tier years as needed. Tier 1 = first-year burn (prime). Tier 2+ = older burn (marginal).",
+  "burns": [
+    {
+      "id": "labor",
+      "name": "Labor Mountain Fire",
+      "location": "N of Teanaway",
+      "lat": 47.1903,
+      "lon": -120.9344,
+      "elev_low_ft": 2000,
+      "elev_high_ft": 4500,
+      "burn_year": 2025,
+      "acres": 42600,
+      "notes": ""
+    },
+    {
+      "id": "sugarloaf",
+      "name": "Lower Sugarloaf + Second Creek",
+      "location": "NE of Leavenworth, Chumstick Valley",
+      "lat": 47.6454,
+      "lon": -120.5754,
+      "elev_low_ft": 1500,
+      "elev_high_ft": 5000,
+      "burn_year": 2025,
+      "acres": 43060,
+      "notes": "Combo of Lower Sugarloaf (~42,980 ac) + Second Creek (~80 ac)"
+    },
+    {
+      "id": "pomas",
+      "name": "Pomas Fire",
+      "location": "36 mi NW of Entiat, Glacier Peak",
+      "lat": 47.98,
+      "lon": -120.72,
+      "elev_low_ft": 2500,
+      "elev_high_ft": 6000,
+      "burn_year": 2025,
+      "acres": 3470,
+      "notes": "Double-burn area"
+    },
+    {
+      "id": "wildcat",
+      "name": "Wildcat Fire",
+      "location": "William O'Douglas Wilderness",
+      "lat": 46.82,
+      "lon": -121.4,
+      "elev_low_ft": 3000,
+      "elev_high_ft": 5500,
+      "burn_year": 2025,
+      "acres": 15600,
+      "notes": ""
+    },
+    {
+      "id": "beargulch",
+      "name": "Bear Gulch + Hamma Hamma",
+      "location": "N Lake Cushman / Hamma Hamma",
+      "lat": 47.52,
+      "lon": -123.15,
+      "elev_low_ft": 500,
+      "elev_high_ft": 2500,
+      "burn_year": 2025,
+      "acres": 20265,
+      "notes": "Combo of Bear Gulch (~20,200 ac) + Hamma Hamma (~65 ac). Low elevation — earliest window."
+    },
+    {
+      "id": "retreat",
+      "name": "Retreat Fire",
+      "location": "Near Naches",
+      "lat": 46.7298,
+      "lon": -121.0012,
+      "elev_low_ft": 1500,
+      "elev_high_ft": 4000,
+      "burn_year": 2023,
+      "acres": null,
+      "notes": "Older burn — marginal tier."
+    },
+    {
+      "id": "pioneer",
+      "name": "Pioneer Fire",
+      "location": "Lake Chelan, N shore near Stehekin",
+      "lat": 48.16,
+      "lon": -120.72,
+      "elev_low_ft": 1100,
+      "elev_high_ft": 4000,
+      "burn_year": 2024,
+      "acres": 38700,
+      "notes": "VERIFY COORDS — best-guess placement."
+    }
+  ]
+}

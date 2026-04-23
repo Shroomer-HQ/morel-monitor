@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morel Monitor — Burn Scar Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Anybody:wght@300;600;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0d1410; --bg2:#141c17; --bg3:#1a2420; --panel:#1f2d27;
+  --border:#2e4038; --border2:#3d5548;
+  --green:#4caf6e; --green-dim:#2d6644; --green-glow:#4caf6e22;
+  --amber:#e8a030; --amber-dim:#7a5018;
+  --red:#d95b4a; --blue:#5b9bd5;
+  --text:#c8d8c2; --text-dim:#6a8a72; --text-mute:#3d5540;
+  --mono:'Space Mono',monospace;
+  --display:'Anybody',sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 13px;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+header {
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 17px;
+  color: var(--green);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.logo span { color: var(--text-dim); font-weight: 300; margin-left: 4px; }
+.hdr-right { display: flex; align-items: center; gap: 16px; font-size: 11px; color: var(--text-dim); }
+.hdr-right a { color: var(--green); text-decoration: none; }
+.hdr-right a:hover { text-decoration: underline; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.metric {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 14px 16px;
+}
+.metric-label {
+  font-size: 10px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 6px;
+}
+.metric-value {
+  font-family: var(--display);
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--text);
+}
+.metric-value.active { color: var(--green); }
+.metric-value.warn { color: var(--amber); }
+
+.section-title {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-dim);
+  margin: 28px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+.window-card {
+  background: var(--bg2);
+  border: 1px solid var(--green-dim);
+  border-left: 3px solid var(--green);
+  border-radius: 4px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+}
+.window-title {
+  font-weight: 700;
+  color: var(--green);
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.window-meta { font-size: 11px; color: var(--text-dim); margin-bottom: 10px; }
+.window-days {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  font-size: 10px;
+}
+.wday {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 4px 7px;
+  color: var(--text-dim);
+}
+.wday.q { border-color: var(--green-dim); color: var(--green); }
+
+.burn-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+}
+.burn-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.burn-name { font-weight: 700; font-size: 14px; color: var(--text); }
+.burn-loc { font-size: 11px; color: var(--text-dim); }
+.burn-status {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.status-go { background: var(--green-dim); color: var(--green); }
+.status-wait { background: var(--bg3); color: var(--text-dim); border: 1px solid var(--border); }
+.status-err { background: #4a1f1f; color: var(--red); }
+
+.day-strip {
+  display: flex;
+  gap: 2px;
+  margin-top: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.day-cell {
+  min-width: 52px;
+  padding: 6px 4px;
+  border-radius: 3px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  text-align: center;
+  font-size: 9px;
+  flex-shrink: 0;
+}
+.day-cell.q {
+  background: var(--green-glow);
+  border-color: var(--green-dim);
+  color: var(--green);
+}
+.day-cell.today { outline: 1px solid var(--amber); outline-offset: 1px; }
+.day-date { font-weight: 700; margin-bottom: 2px; }
+.day-temp { color: var(--text-dim); }
+.day-temp .q & { color: var(--green); }
+.day-rain { color: var(--blue); font-size: 8px; margin-top: 2px; }
+
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-dim);
+}
+.error-banner {
+  background: #4a1f1f22;
+  border: 1px solid #4a1f1f;
+  color: var(--red);
+  padding: 10px 14px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  font-size: 10px;
+  color: var(--text-mute);
+  text-align: center;
+}
+.footer a { color: var(--text-dim); }
+
+@media (max-width: 700px) {
+  .summary { grid-template-columns: repeat(2, 1fr); }
+  .container { padding: 16px; }
+  header { padding: 0 14px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Morel Monitor <span>· burn scar dashboard</span></div>
+  <div class="hdr-right">
+    <span id="last-updated">loading…</span>
+    <a id="ics-link" href="calendar.ics" title="Subscribe this URL in Google Calendar">📅 ics</a>
+  </div>
+</header>
+
+<div class="container">
+  <div id="loading" class="loading">Loading weather data…</div>
+  <div id="content" style="display:none;">
+    <div class="summary">
+      <div class="metric">
+        <div class="metric-label">Active windows</div>
+        <div class="metric-value active" id="m-active">0</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Burns tracked</div>
+        <div class="metric-value" id="m-burns">0</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Qualifying today</div>
+        <div class="metric-value" id="m-today">0</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Next window</div>
+        <div class="metric-value warn" id="m-next" style="font-size:14px;">—</div>
+      </div>
+    </div>
+
+    <div id="errors"></div>
+
+    <div class="section-title">Active &amp; upcoming windows</div>
+    <div id="windows-list"></div>
+
+    <div class="section-title">All burns</div>
+    <div id="burns-list"></div>
+  </div>
+
+  <div class="footer">
+    Auto-updated daily by <a href="https://github.com/Shroomer-HQ/morel-monitor">morel-monitor</a> agent ·
+    Weather from <a href="https://open-meteo.com">Open-Meteo</a>
+  </div>
+</div>
+
+<script>
+async function load() {
+  try {
+    // Cache-bust so we always get the latest from GitHub Pages
+    const res = await fetch('data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    render(data);
+  } catch (e) {
+    document.getElementById('loading').innerHTML =
+      'Failed to load data.json: ' + e.message +
+      '<br><br>If the agent has never run yet, this is expected. Once GitHub Actions runs it once, this will populate.';
+  }
+}
+
+function fmtDate(iso) {
+  const d = new Date(iso + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+function fmtDateLong(iso) {
+  const d = new Date(iso + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+}
+
+function render(data) {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+
+  const burnsById = {};
+  data.burns.forEach(b => burnsById[b.id] = b);
+
+  const today = data.generated_for_date;
+  const genAt = new Date(data.generated_at_utc);
+  document.getElementById('last-updated').textContent =
+    'updated ' + genAt.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+
+  // Collect all windows
+  const allWindows = [];
+  data.results.forEach(r => {
+    r.windows.forEach(w => {
+      allWindows.push({ ...w, burn: burnsById[r.burn_id] });
+    });
+  });
+  allWindows.sort((a, b) => a.start_date.localeCompare(b.start_date));
+
+  // Metrics
+  const activeNow = allWindows.filter(w =>
+    w.start_date <= today && w.end_date >= today
+  ).length;
+  const qualifyingToday = data.results.filter(r => {
+    const d = r.days.find(x => x.date === today);
+    return d && d.qualifies;
+  }).length;
+  const nextWindow = allWindows.find(w => w.start_date > today);
+
+  document.getElementById('m-active').textContent = activeNow;
+  document.getElementById('m-burns').textContent = data.burns.length;
+  document.getElementById('m-today').textContent = qualifyingToday;
+  document.getElementById('m-next').textContent =
+    nextWindow ? fmtDate(nextWindow.start_date) + ' · ' + nextWindow.burn.name.split(' ')[0] : '—';
+
+  // Errors
+  const errs = data.results.filter(r => r.error);
+  const errDiv = document.getElementById('errors');
+  if (errs.length) {
+    errDiv.innerHTML = errs.map(e => {
+      const burn = burnsById[e.burn_id];
+      return `<div class="error-banner">⚠️ ${burn.name}: ${e.error}</div>`;
+    }).join('');
+  }
+
+  // Windows list
+  const wList = document.getElementById('windows-list');
+  if (!allWindows.length) {
+    wList.innerHTML = '<div style="color:var(--text-dim);padding:10px 0;font-size:12px;">No qualifying windows in the current 14-day trailing / 7-day forecast range.</div>';
+  } else {
+    wList.innerHTML = allWindows.map(w => `
+      <div class="window-card">
+        <div class="window-title">🍄 ${w.burn.name}</div>
+        <div class="window-meta">
+          ${fmtDateLong(w.start_date)} → ${fmtDateLong(w.end_date)}
+          · ${w.length_days} day(s)
+          · ${w.burn.location}
+          · ${w.burn.elev_low_ft}–${w.burn.elev_high_ft} ft
+        </div>
+        <div class="window-days">
+          ${w.days.map(d => `<span class="wday q">${fmtDate(d.date)} ${Math.round(d.tmax_f)}/${Math.round(d.tmin_f)}°</span>`).join('')}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // All burns
+  const bList = document.getElementById('burns-list');
+  bList.innerHTML = data.results.map(r => {
+    const burn = burnsById[r.burn_id];
+    if (r.error) {
+      return `
+        <div class="burn-card">
+          <div class="burn-header">
+            <div>
+              <div class="burn-name">${burn.name}</div>
+              <div class="burn-loc">${burn.location} · ${burn.elev_low_ft}–${burn.elev_high_ft} ft · burn yr ${burn.burn_year}</div>
+            </div>
+            <div class="burn-status status-err">error</div>
+          </div>
+          <div style="font-size:11px;color:var(--red);">${r.error}</div>
+        </div>
+      `;
+    }
+    const status = r.windows.length ? 'status-go' : 'status-wait';
+    const statusLabel = r.windows.length
+      ? `${r.windows.length} window${r.windows.length > 1 ? 's' : ''}`
+      : 'waiting';
+    return `
+      <div class="burn-card">
+        <div class="burn-header">
+          <div>
+            <div class="burn-name">${burn.name}</div>
+            <div class="burn-loc">${burn.location} · ${burn.elev_low_ft}–${burn.elev_high_ft} ft · burn yr ${burn.burn_year}</div>
+          </div>
+          <div class="burn-status ${status}">${statusLabel}</div>
+        </div>
+        <div class="day-strip">
+          ${r.days.map(d => {
+            const classes = ['day-cell'];
+            if (d.qualifies) classes.push('q');
+            if (d.date === today) classes.push('today');
+            return `
+              <div class="${classes.join(' ')}">
+                <div class="day-date">${fmtDate(d.date)}</div>
+                <div class="day-temp">${d.tmax_f != null ? Math.round(d.tmax_f) : '—'}/${d.tmin_f != null ? Math.round(d.tmin_f) : '—'}°</div>
+                <div class="day-rain">${d.precip_in != null ? d.precip_in.toFixed(2) + '"' : ''}</div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+load();
+</script>
+</body>
+</html>
