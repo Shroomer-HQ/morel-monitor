@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Morel Monitor//Shroomer-HQ//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Morel Foraging Windows
+X-WR-TIMEZONE:America/Los_Angeles
+X-WR-CALDESC:Automated morel foraging windows based on burn scar weather analysis.
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+END:VCALENDAR
