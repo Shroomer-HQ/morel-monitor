@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Razor Clam Monitor//Shroomer-HQ//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WA Razor Clam Digs
+X-WR-TIMEZONE:America/Los_Angeles
+X-WR-CALDESC:WDFW-approved razor clam dig dates with tide + daylight scoring.
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+END:VCALENDAR
