@@ -10,71 +10,71 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:82bb7280be502e7ba7d01770c962fbd0@morel-monitor
-DTSTAMP:20260429T185803Z
+DTSTAMP:20260430T185422Z
 DTSTART:20260430T112600Z
 DTEND:20260430T142600Z
 SUMMARY:🌊 Razor clams — Long Beach\, Twin Harbors\, Mocrocks [standard]
-DESCRIPTION:Low tide: 6:26 AM @ -0.3 ft\nDaylight: 6:09 AM — 8:18 PM\nDig falls in: daylight\nPriority: standard (tide score 72.0/100)\nBeaches: Long Beach\, Twin Harbors\, Mocrocks\nRecommended window: 4:26 AM–7:26 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-29 by razor-clam-monitor.
+DESCRIPTION:Low tide: 6:26 AM @ -0.3 ft\nDaylight: 6:09 AM — 8:18 PM\nDig falls in: daylight\nPriority: standard (tide score 72.0/100)\nBeaches: Long Beach\, Twin Harbors\, Mocrocks\nRecommended window: 4:26 AM–7:26 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-30 by razor-clam-monitor.
 LOCATION:Long Beach\, Twin Harbors\, Mocrocks\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:15554291dc4638266d7cc956db6e00ec@morel-monitor
-DTSTAMP:20260429T185803Z
+DTSTAMP:20260430T185422Z
 DTSTART:20260501T120100Z
 DTEND:20260501T150100Z
 SUMMARY:🦪 Razor clams — Long Beach\, Twin Harbors\, Copalis [priority]
-DESCRIPTION:Low tide: 7:01 AM @ -0.7 ft\nDaylight: 6:07 AM — 8:19 PM\nDig falls in: daylight\nPriority: priority (tide score 88.0/100)\nBeaches: Long Beach\, Twin Harbors\, Copalis\nRecommended window: 5:01 AM–8:01 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-29 by razor-clam-monitor.
+DESCRIPTION:Low tide: 7:01 AM @ -0.7 ft\nDaylight: 6:07 AM — 8:19 PM\nDig falls in: daylight\nPriority: priority (tide score 88.0/100)\nBeaches: Long Beach\, Twin Harbors\, Copalis\nRecommended window: 5:01 AM–8:01 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-30 by razor-clam-monitor.
 LOCATION:Long Beach\, Twin Harbors\, Copalis\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:bf77f8014a6356613c26079056083d21@morel-monitor
-DTSTAMP:20260429T185803Z
+DTSTAMP:20260430T185422Z
 DTSTART:20260502T123500Z
 DTEND:20260502T153500Z
 SUMMARY:🦪 Razor clams — Long Beach\, Twin Harbors\, Copalis [priority]
-DESCRIPTION:Low tide: 7:35 AM @ -0.8 ft\nDaylight: 6:05 AM — 8:20 PM\nDig falls in: daylight\nPriority: priority (tide score 92.0/100)\nBeaches: Long Beach\, Twin Harbors\, Copalis\nRecommended window: 5:35 AM–8:35 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-29 by razor-clam-monitor.
+DESCRIPTION:Low tide: 7:35 AM @ -0.8 ft\nDaylight: 6:05 AM — 8:20 PM\nDig falls in: daylight\nPriority: priority (tide score 92.0/100)\nBeaches: Long Beach\, Twin Harbors\, Copalis\nRecommended window: 5:35 AM–8:35 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-30 by razor-clam-monitor.
 LOCATION:Long Beach\, Twin Harbors\, Copalis\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:5b7fa656ea0221ec1ddb91e8417f98bf@morel-monitor
-DTSTAMP:20260429T185803Z
+DTSTAMP:20260430T185422Z
 DTSTART:20260503T130800Z
 DTEND:20260503T160800Z
 SUMMARY:🦪 Razor clams — Long Beach\, Twin Harbors\, Mocrocks [priority]
-DESCRIPTION:Low tide: 8:08 AM @ -0.8 ft\nDaylight: 6:04 AM — 8:22 PM\nDig falls in: daylight\nPriority: priority (tide score 92.0/100)\nBeaches: Long Beach\, Twin Harbors\, Mocrocks\nRecommended window: 6:08 AM–9:08 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-29 by razor-clam-monitor.
+DESCRIPTION:Low tide: 8:08 AM @ -0.8 ft\nDaylight: 6:04 AM — 8:22 PM\nDig falls in: daylight\nPriority: priority (tide score 92.0/100)\nBeaches: Long Beach\, Twin Harbors\, Mocrocks\nRecommended window: 6:08 AM–9:08 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-30 by razor-clam-monitor.
 LOCATION:Long Beach\, Twin Harbors\, Mocrocks\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:3f1f7065060b6ec0c4fe369d05f9e05e@morel-monitor
-DTSTAMP:20260429T185803Z
+DTSTAMP:20260430T185422Z
 DTSTART:20260504T134300Z
 DTEND:20260504T164300Z
 SUMMARY:🦪 Razor clams — Long Beach\, Twin Harbors\, Mocrocks [priority]
-DESCRIPTION:Low tide: 8:43 AM @ -0.7 ft\nDaylight: 6:02 AM — 8:23 PM\nDig falls in: daylight\nPriority: priority (tide score 88.0/100)\nBeaches: Long Beach\, Twin Harbors\, Mocrocks\nRecommended window: 6:43 AM–9:43 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-29 by razor-clam-monitor.
+DESCRIPTION:Low tide: 8:43 AM @ -0.7 ft\nDaylight: 6:02 AM — 8:23 PM\nDig falls in: daylight\nPriority: priority (tide score 88.0/100)\nBeaches: Long Beach\, Twin Harbors\, Mocrocks\nRecommended window: 6:43 AM–9:43 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-30 by razor-clam-monitor.
 LOCATION:Long Beach\, Twin Harbors\, Mocrocks\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:bff14ec11f1393bee6d77d4e03475075@morel-monitor
-DTSTAMP:20260429T185803Z
+DTSTAMP:20260430T185422Z
 DTSTART:20260505T142100Z
 DTEND:20260505T172100Z
 SUMMARY:🌊 Razor clams — Long Beach\, Twin Harbors\, Copalis [standard]
-DESCRIPTION:Low tide: 9:21 AM @ -0.4 ft\nDaylight: 6:01 AM — 8:24 PM\nDig falls in: daylight\nPriority: standard (tide score 76.0/100)\nBeaches: Long Beach\, Twin Harbors\, Copalis\nRecommended window: 7:21 AM–10:21 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-29 by razor-clam-monitor.
+DESCRIPTION:Low tide: 9:21 AM @ -0.4 ft\nDaylight: 6:01 AM — 8:24 PM\nDig falls in: daylight\nPriority: standard (tide score 76.0/100)\nBeaches: Long Beach\, Twin Harbors\, Copalis\nRecommended window: 7:21 AM–10:21 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-30 by razor-clam-monitor.
 LOCATION:Long Beach\, Twin Harbors\, Copalis\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:d446e4b1975d56025424c1cf4108c1d7@morel-monitor
-DTSTAMP:20260429T185803Z
+DTSTAMP:20260430T185422Z
 DTSTART:20260506T150300Z
 DTEND:20260506T180300Z
 SUMMARY:🌊 Razor clams — Long Beach\, Twin Harbors\, Copalis [standard]
-DESCRIPTION:Low tide: 10:03 AM @ -0.1 ft\nDaylight: 5:59 AM — 8:26 PM\nDig falls in: daylight\nPriority: standard (tide score 64.0/100)\nBeaches: Long Beach\, Twin Harbors\, Copalis\nRecommended window: 8:03 AM–11:03 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-29 by razor-clam-monitor.
+DESCRIPTION:Low tide: 10:03 AM @ -0.1 ft\nDaylight: 5:59 AM — 8:26 PM\nDig falls in: daylight\nPriority: standard (tide score 64.0/100)\nBeaches: Long Beach\, Twin Harbors\, Copalis\nRecommended window: 8:03 AM–11:03 AM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-04-30 by razor-clam-monitor.
 LOCATION:Long Beach\, Twin Harbors\, Copalis\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
