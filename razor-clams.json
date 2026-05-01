@@ -1,28 +1,9 @@
 {
-  "generated_at_utc": "2026-04-30T18:54:22+00:00",
-  "generated_for_date": "2026-04-30",
+  "generated_at_utc": "2026-05-01T17:35:58+00:00",
+  "generated_for_date": "2026-05-01",
   "source": "https://razorclamsociety.org/dig-dates-time/",
   "error": null,
   "digs": [
-    {
-      "date": "2026-04-30",
-      "weekday": "Thursday",
-      "low_tide_local": "6:26 AM",
-      "low_tide_24h": "06:26",
-      "low_tide_ft": -0.3,
-      "beaches": [
-        "Long Beach",
-        "Twin Harbors",
-        "Mocrocks"
-      ],
-      "series": "morning",
-      "datetime_iso": "2026-04-30T06:26:00-07:00",
-      "priority": "standard",
-      "tide_score": 72.0,
-      "in_daylight": true,
-      "sunrise_local": "6:09 AM",
-      "sunset_local": "8:18 PM"
-    },
     {
       "date": "2026-05-01",
       "weekday": "Friday",
