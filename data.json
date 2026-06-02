@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-01T19:18:00+00:00",
-  "generated_for_date": "2026-06-01",
+  "generated_at_utc": "2026-06-02T18:02:55+00:00",
+  "generated_for_date": "2026-06-02",
   "timezone": "America/Los_Angeles",
   "criteria": {
     "_comment": "Qualifying criteria for a morel foraging day. A day 'qualifies' if ALL conditions are met. A 'window' is 3+ consecutive qualifying days. Temperatures in \u00b0F, rainfall in inches.",
@@ -110,19 +110,6 @@
     {
       "burn_id": "labor",
       "days": [
-        {
-          "date": "2026-05-18",
-          "tmax_f": 65.1,
-          "tmin_f": 41.7,
-          "precip_in": 0.0,
-          "qualifies": false,
-          "trailing_rain_14d_in": 0.0,
-          "trailing_rain_3d_in": 0.0,
-          "reasons": [
-            "14d rain 0.00\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\""
-          ]
-        },
         {
           "date": "2026-05-19",
           "tmax_f": 62.8,
@@ -293,7 +280,7 @@
         },
         {
           "date": "2026-06-01",
-          "tmax_f": 74.4,
+          "tmax_f": 76.0,
           "tmin_f": 45.4,
           "precip_in": 0.0,
           "qualifies": false,
@@ -306,80 +293,89 @@
         },
         {
           "date": "2026-06-02",
-          "tmax_f": 81.2,
-          "tmin_f": 54.9,
+          "tmax_f": 76.8,
+          "tmin_f": 48.8,
           "precip_in": 0.0,
           "qualifies": false,
           "trailing_rain_14d_in": 0.09,
           "trailing_rain_3d_in": 0.0,
           "reasons": [
-            "tmax 81\u00b0F > 78\u00b0F",
             "14d rain 0.09\" < 1.0\"",
             "3d rain 0.00\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-03",
-          "tmax_f": 67.3,
-          "tmin_f": 50.9,
-          "precip_in": 0.039,
+          "tmax_f": 66.3,
+          "tmin_f": 51.4,
+          "precip_in": 0.059,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.13,
-          "trailing_rain_3d_in": 0.04,
+          "trailing_rain_14d_in": 0.15,
+          "trailing_rain_3d_in": 0.06,
           "reasons": [
-            "14d rain 0.13\" < 1.0\"",
-            "3d rain 0.04\" < 0.05\""
+            "14d rain 0.15\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-04",
-          "tmax_f": 70.0,
-          "tmin_f": 47.7,
+          "tmax_f": 67.1,
+          "tmin_f": 45.9,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.13,
-          "trailing_rain_3d_in": 0.04,
+          "trailing_rain_14d_in": 0.15,
+          "trailing_rain_3d_in": 0.06,
           "reasons": [
-            "14d rain 0.13\" < 1.0\"",
-            "3d rain 0.04\" < 0.05\""
+            "14d rain 0.15\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-05",
-          "tmax_f": 68.2,
-          "tmin_f": 43.7,
-          "precip_in": 0.004,
+          "tmax_f": 61.7,
+          "tmin_f": 42.1,
+          "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.13,
-          "trailing_rain_3d_in": 0.04,
+          "trailing_rain_14d_in": 0.15,
+          "trailing_rain_3d_in": 0.06,
           "reasons": [
-            "14d rain 0.13\" < 1.0\"",
-            "3d rain 0.04\" < 0.05\""
+            "14d rain 0.15\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-06",
-          "tmax_f": 60.7,
-          "tmin_f": 37.4,
+          "tmax_f": 58.7,
+          "tmin_f": 36.3,
           "precip_in": 0.016,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.15,
+          "trailing_rain_14d_in": 0.16,
           "trailing_rain_3d_in": 0.02,
           "reasons": [
-            "14d rain 0.15\" < 1.0\"",
+            "14d rain 0.16\" < 1.0\"",
             "3d rain 0.02\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-07",
-          "tmax_f": 60.2,
-          "tmin_f": 40.0,
+          "tmax_f": 61.2,
+          "tmin_f": 40.3,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.15,
+          "trailing_rain_14d_in": 0.16,
           "trailing_rain_3d_in": 0.02,
           "reasons": [
-            "14d rain 0.15\" < 1.0\"",
+            "14d rain 0.16\" < 1.0\"",
+            "3d rain 0.02\" < 0.05\""
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "tmax_f": 70.4,
+          "tmin_f": 44.2,
+          "precip_in": 0.0,
+          "qualifies": false,
+          "trailing_rain_14d_in": 0.16,
+          "trailing_rain_3d_in": 0.02,
+          "reasons": [
+            "14d rain 0.16\" < 1.0\"",
             "3d rain 0.02\" < 0.05\""
           ]
         }
@@ -390,19 +386,6 @@
     {
       "burn_id": "sugarloaf",
       "days": [
-        {
-          "date": "2026-05-18",
-          "tmax_f": 68.6,
-          "tmin_f": 41.5,
-          "precip_in": 0.0,
-          "qualifies": false,
-          "trailing_rain_14d_in": 0.0,
-          "trailing_rain_3d_in": 0.0,
-          "reasons": [
-            "14d rain 0.00\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\""
-          ]
-        },
         {
           "date": "2026-05-19",
           "tmax_f": 66.1,
@@ -577,7 +560,7 @@
         },
         {
           "date": "2026-06-01",
-          "tmax_f": 76.4,
+          "tmax_f": 76.2,
           "tmin_f": 54.7,
           "precip_in": 0.0,
           "qualifies": false,
@@ -590,78 +573,93 @@
         },
         {
           "date": "2026-06-02",
-          "tmax_f": 81.3,
-          "tmin_f": 57.2,
+          "tmax_f": 76.9,
+          "tmin_f": 51.8,
           "precip_in": 0.0,
           "qualifies": false,
           "trailing_rain_14d_in": 0.03,
           "trailing_rain_3d_in": 0.0,
           "reasons": [
-            "tmax 81\u00b0F > 78\u00b0F",
             "14d rain 0.03\" < 1.0\"",
             "3d rain 0.00\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-03",
-          "tmax_f": 70.3,
-          "tmin_f": 49.7,
-          "precip_in": 0.134,
+          "tmax_f": 72.5,
+          "tmin_f": 53.9,
+          "precip_in": 0.043,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.17,
-          "trailing_rain_3d_in": 0.13,
+          "trailing_rain_14d_in": 0.07,
+          "trailing_rain_3d_in": 0.04,
           "reasons": [
-            "14d rain 0.17\" < 1.0\""
+            "14d rain 0.07\" < 1.0\"",
+            "3d rain 0.04\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-04",
-          "tmax_f": 75.1,
-          "tmin_f": 44.5,
+          "tmax_f": 71.9,
+          "tmin_f": 46.9,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.17,
-          "trailing_rain_3d_in": 0.13,
+          "trailing_rain_14d_in": 0.07,
+          "trailing_rain_3d_in": 0.04,
           "reasons": [
-            "14d rain 0.17\" < 1.0\""
+            "14d rain 0.07\" < 1.0\"",
+            "3d rain 0.04\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-05",
-          "tmax_f": 73.1,
-          "tmin_f": 44.9,
-          "precip_in": 0.0,
+          "tmax_f": 65.2,
+          "tmin_f": 40.9,
+          "precip_in": 0.004,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.17,
-          "trailing_rain_3d_in": 0.13,
+          "trailing_rain_14d_in": 0.08,
+          "trailing_rain_3d_in": 0.05,
           "reasons": [
-            "14d rain 0.17\" < 1.0\""
+            "14d rain 0.08\" < 1.0\"",
+            "3d rain 0.05\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-06",
-          "tmax_f": 64.4,
-          "tmin_f": 41.5,
-          "precip_in": 0.02,
+          "tmax_f": 62.5,
+          "tmin_f": 37.7,
+          "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.18,
-          "trailing_rain_3d_in": 0.02,
+          "trailing_rain_14d_in": 0.08,
+          "trailing_rain_3d_in": 0.0,
           "reasons": [
-            "14d rain 0.18\" < 1.0\"",
-            "3d rain 0.02\" < 0.05\""
+            "14d rain 0.08\" < 1.0\"",
+            "3d rain 0.00\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-07",
-          "tmax_f": 64.5,
-          "tmin_f": 36.8,
+          "tmax_f": 63.4,
+          "tmin_f": 37.7,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.18,
-          "trailing_rain_3d_in": 0.02,
+          "trailing_rain_14d_in": 0.08,
+          "trailing_rain_3d_in": 0.0,
           "reasons": [
-            "14d rain 0.18\" < 1.0\"",
-            "3d rain 0.02\" < 0.05\""
+            "14d rain 0.08\" < 1.0\"",
+            "3d rain 0.00\" < 0.05\""
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "tmax_f": 70.8,
+          "tmin_f": 44.2,
+          "precip_in": 0.012,
+          "qualifies": false,
+          "trailing_rain_14d_in": 0.09,
+          "trailing_rain_3d_in": 0.01,
+          "reasons": [
+            "14d rain 0.09\" < 1.0\"",
+            "3d rain 0.01\" < 0.05\""
           ]
         }
       ],
@@ -671,19 +669,6 @@
     {
       "burn_id": "pomas",
       "days": [
-        {
-          "date": "2026-05-18",
-          "tmax_f": 58.1,
-          "tmin_f": 34.8,
-          "precip_in": 0.0,
-          "qualifies": false,
-          "trailing_rain_14d_in": 0.0,
-          "trailing_rain_3d_in": 0.0,
-          "reasons": [
-            "14d rain 0.00\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\""
-          ]
-        },
         {
           "date": "2026-05-19",
           "tmax_f": 57.5,
@@ -858,7 +843,7 @@
         },
         {
           "date": "2026-06-01",
-          "tmax_f": 64.4,
+          "tmax_f": 64.1,
           "tmin_f": 46.1,
           "precip_in": 0.0,
           "qualifies": false,
@@ -871,8 +856,8 @@
         },
         {
           "date": "2026-06-02",
-          "tmax_f": 67.7,
-          "tmin_f": 50.4,
+          "tmax_f": 65.0,
+          "tmin_f": 45.2,
           "precip_in": 0.0,
           "qualifies": false,
           "trailing_rain_14d_in": 0.06,
@@ -884,66 +869,81 @@
         },
         {
           "date": "2026-06-03",
-          "tmax_f": 60.8,
-          "tmin_f": 42.2,
-          "precip_in": 0.217,
+          "tmax_f": 59.6,
+          "tmin_f": 45.7,
+          "precip_in": 0.098,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.28,
-          "trailing_rain_3d_in": 0.22,
+          "trailing_rain_14d_in": 0.16,
+          "trailing_rain_3d_in": 0.1,
           "reasons": [
-            "14d rain 0.28\" < 1.0\""
+            "14d rain 0.16\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-04",
-          "tmax_f": 64.5,
-          "tmin_f": 39.0,
-          "precip_in": 0.0,
+          "tmax_f": 63.3,
+          "tmin_f": 42.5,
+          "precip_in": 0.008,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.28,
-          "trailing_rain_3d_in": 0.22,
+          "trailing_rain_14d_in": 0.17,
+          "trailing_rain_3d_in": 0.11,
           "reasons": [
-            "14d rain 0.28\" < 1.0\""
+            "14d rain 0.17\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-05",
-          "tmax_f": 61.8,
-          "tmin_f": 37.9,
-          "precip_in": 0.008,
+          "tmax_f": 55.0,
+          "tmin_f": 35.9,
+          "precip_in": 0.004,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.28,
-          "trailing_rain_3d_in": 0.23,
+          "trailing_rain_14d_in": 0.17,
+          "trailing_rain_3d_in": 0.11,
           "reasons": [
-            "14d rain 0.28\" < 1.0\""
+            "14d rain 0.17\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-06",
-          "tmax_f": 55.0,
-          "tmin_f": 34.1,
-          "precip_in": 0.024,
+          "tmax_f": 53.4,
+          "tmin_f": 32.1,
+          "precip_in": 0.035,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.31,
-          "trailing_rain_3d_in": 0.03,
+          "trailing_rain_14d_in": 0.2,
+          "trailing_rain_3d_in": 0.05,
           "reasons": [
-            "14d rain 0.31\" < 1.0\"",
-            "3d rain 0.03\" < 0.05\""
+            "tmax 53\u00b0F < 55\u00b0F",
+            "tmin 32\u00b0F < 34\u00b0F",
+            "14d rain 0.20\" < 1.0\"",
+            "3d rain 0.05\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-07",
-          "tmax_f": 54.2,
-          "tmin_f": 30.3,
+          "tmax_f": 52.9,
+          "tmin_f": 31.4,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.31,
-          "trailing_rain_3d_in": 0.03,
+          "trailing_rain_14d_in": 0.2,
+          "trailing_rain_3d_in": 0.04,
           "reasons": [
-            "tmax 54\u00b0F < 55\u00b0F",
-            "tmin 30\u00b0F < 34\u00b0F",
-            "14d rain 0.31\" < 1.0\"",
-            "3d rain 0.03\" < 0.05\""
+            "tmax 53\u00b0F < 55\u00b0F",
+            "tmin 31\u00b0F < 34\u00b0F",
+            "14d rain 0.20\" < 1.0\"",
+            "3d rain 0.04\" < 0.05\""
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "tmax_f": 62.6,
+          "tmin_f": 35.8,
+          "precip_in": 0.0,
+          "qualifies": false,
+          "trailing_rain_14d_in": 0.2,
+          "trailing_rain_3d_in": 0.04,
+          "reasons": [
+            "14d rain 0.20\" < 1.0\"",
+            "3d rain 0.04\" < 0.05\""
           ]
         }
       ],
@@ -953,19 +953,6 @@
     {
       "burn_id": "wildcat",
       "days": [
-        {
-          "date": "2026-05-18",
-          "tmax_f": 56.4,
-          "tmin_f": 34.1,
-          "precip_in": 0.0,
-          "qualifies": false,
-          "trailing_rain_14d_in": 0.0,
-          "trailing_rain_3d_in": 0.0,
-          "reasons": [
-            "14d rain 0.00\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\""
-          ]
-        },
         {
           "date": "2026-05-19",
           "tmax_f": 54.4,
@@ -1142,7 +1129,7 @@
         },
         {
           "date": "2026-06-01",
-          "tmax_f": 58.4,
+          "tmax_f": 60.1,
           "tmin_f": 38.5,
           "precip_in": 0.0,
           "qualifies": false,
@@ -1156,8 +1143,8 @@
         },
         {
           "date": "2026-06-02",
-          "tmax_f": 63.7,
-          "tmin_f": 44.7,
+          "tmax_f": 62.6,
+          "tmin_f": 38.9,
           "precip_in": 0.0,
           "qualifies": false,
           "trailing_rain_14d_in": 0.31,
@@ -1170,71 +1157,89 @@
         },
         {
           "date": "2026-06-03",
-          "tmax_f": 60.4,
-          "tmin_f": 45.6,
-          "precip_in": 0.096,
+          "tmax_f": 52.0,
+          "tmin_f": 38.3,
+          "precip_in": 0.016,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.41,
-          "trailing_rain_3d_in": 0.1,
+          "trailing_rain_14d_in": 0.33,
+          "trailing_rain_3d_in": 0.02,
           "reasons": [
-            "14d rain 0.41\" < 1.0\"",
+            "tmax 52\u00b0F < 55\u00b0F",
+            "14d rain 0.33\" < 1.0\"",
+            "3d rain 0.02\" < 0.05\"",
             "hard freeze in trailing 7d"
           ]
         },
         {
           "date": "2026-06-04",
-          "tmax_f": 62.3,
-          "tmin_f": 35.0,
+          "tmax_f": 61.1,
+          "tmin_f": 31.4,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.41,
-          "trailing_rain_3d_in": 0.1,
+          "trailing_rain_14d_in": 0.33,
+          "trailing_rain_3d_in": 0.02,
           "reasons": [
-            "14d rain 0.41\" < 1.0\"",
+            "tmin 31\u00b0F < 34\u00b0F",
+            "14d rain 0.33\" < 1.0\"",
+            "3d rain 0.02\" < 0.05\"",
             "hard freeze in trailing 7d"
           ]
         },
         {
           "date": "2026-06-05",
-          "tmax_f": 55.9,
-          "tmin_f": 34.1,
-          "precip_in": 0.016,
+          "tmax_f": 48.7,
+          "tmin_f": 33.5,
+          "precip_in": 0.075,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.42,
-          "trailing_rain_3d_in": 0.11,
+          "trailing_rain_14d_in": 0.4,
+          "trailing_rain_3d_in": 0.09,
           "reasons": [
-            "14d rain 0.42\" < 1.0\"",
+            "tmax 49\u00b0F < 55\u00b0F",
+            "tmin 34\u00b0F < 34\u00b0F",
+            "14d rain 0.40\" < 1.0\"",
             "hard freeze in trailing 7d"
           ]
         },
         {
           "date": "2026-06-06",
-          "tmax_f": 51.2,
-          "tmin_f": 30.1,
-          "precip_in": 0.012,
+          "tmax_f": 44.2,
+          "tmin_f": 29.8,
+          "precip_in": 0.114,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.44,
-          "trailing_rain_3d_in": 0.03,
+          "trailing_rain_14d_in": 0.52,
+          "trailing_rain_3d_in": 0.19,
           "reasons": [
-            "tmax 51\u00b0F < 55\u00b0F",
+            "tmax 44\u00b0F < 55\u00b0F",
             "tmin 30\u00b0F < 34\u00b0F",
-            "14d rain 0.44\" < 1.0\"",
-            "3d rain 0.03\" < 0.05\""
+            "14d rain 0.52\" < 1.0\"",
+            "hard freeze in trailing 7d"
           ]
         },
         {
           "date": "2026-06-07",
-          "tmax_f": 46.7,
-          "tmin_f": 28.7,
+          "tmax_f": 52.6,
+          "tmin_f": 29.4,
+          "precip_in": 0.031,
+          "qualifies": false,
+          "trailing_rain_14d_in": 0.55,
+          "trailing_rain_3d_in": 0.22,
+          "reasons": [
+            "tmax 53\u00b0F < 55\u00b0F",
+            "tmin 29\u00b0F < 34\u00b0F",
+            "14d rain 0.55\" < 1.0\"",
+            "hard freeze in trailing 7d"
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "tmax_f": 58.0,
+          "tmin_f": 38.6,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.44,
-          "trailing_rain_3d_in": 0.03,
+          "trailing_rain_14d_in": 0.53,
+          "trailing_rain_3d_in": 0.15,
           "reasons": [
-            "tmax 47\u00b0F < 55\u00b0F",
-            "tmin 29\u00b0F < 34\u00b0F",
-            "14d rain 0.44\" < 1.0\"",
-            "3d rain 0.03\" < 0.05\"",
+            "14d rain 0.53\" < 1.0\"",
             "hard freeze in trailing 7d"
           ]
         }
@@ -1246,10 +1251,10 @@
       "burn_id": "beargulch",
       "days": [
         {
-          "date": "2026-05-18",
-          "tmax_f": 60.7,
-          "tmin_f": 41.6,
-          "precip_in": 0.067,
+          "date": "2026-05-19",
+          "tmax_f": 55.8,
+          "tmin_f": 43.4,
+          "precip_in": 0.071,
           "qualifies": false,
           "trailing_rain_14d_in": 0.07,
           "trailing_rain_3d_in": 0.07,
@@ -1258,27 +1263,15 @@
           ]
         },
         {
-          "date": "2026-05-19",
-          "tmax_f": 55.8,
-          "tmin_f": 43.4,
-          "precip_in": 0.071,
-          "qualifies": false,
-          "trailing_rain_14d_in": 0.14,
-          "trailing_rain_3d_in": 0.14,
-          "reasons": [
-            "14d rain 0.14\" < 1.0\""
-          ]
-        },
-        {
           "date": "2026-05-20",
           "tmax_f": 58.5,
           "tmin_f": 44.8,
           "precip_in": 0.008,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.15,
-          "trailing_rain_3d_in": 0.15,
+          "trailing_rain_14d_in": 0.08,
+          "trailing_rain_3d_in": 0.08,
           "reasons": [
-            "14d rain 0.15\" < 1.0\""
+            "14d rain 0.08\" < 1.0\""
           ]
         },
         {
@@ -1287,10 +1280,10 @@
           "tmin_f": 45.2,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.15,
+          "trailing_rain_14d_in": 0.08,
           "trailing_rain_3d_in": 0.08,
           "reasons": [
-            "14d rain 0.15\" < 1.0\""
+            "14d rain 0.08\" < 1.0\""
           ]
         },
         {
@@ -1299,10 +1292,10 @@
           "tmin_f": 49.0,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.15,
+          "trailing_rain_14d_in": 0.08,
           "trailing_rain_3d_in": 0.01,
           "reasons": [
-            "14d rain 0.15\" < 1.0\"",
+            "14d rain 0.08\" < 1.0\"",
             "3d rain 0.01\" < 0.05\""
           ]
         },
@@ -1312,10 +1305,10 @@
           "tmin_f": 45.8,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.15,
+          "trailing_rain_14d_in": 0.08,
           "trailing_rain_3d_in": 0.0,
           "reasons": [
-            "14d rain 0.15\" < 1.0\"",
+            "14d rain 0.08\" < 1.0\"",
             "3d rain 0.00\" < 0.05\""
           ]
         },
@@ -1325,10 +1318,10 @@
           "tmin_f": 44.3,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.15,
+          "trailing_rain_14d_in": 0.08,
           "trailing_rain_3d_in": 0.0,
           "reasons": [
-            "14d rain 0.15\" < 1.0\"",
+            "14d rain 0.08\" < 1.0\"",
             "3d rain 0.00\" < 0.05\""
           ]
         },
@@ -1338,11 +1331,11 @@
           "tmin_f": 42.7,
           "precip_in": 0.327,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.47,
+          "trailing_rain_14d_in": 0.41,
           "trailing_rain_3d_in": 0.33,
           "reasons": [
             "tmax 54\u00b0F < 55\u00b0F",
-            "14d rain 0.47\" < 1.0\""
+            "14d rain 0.41\" < 1.0\""
           ]
         },
         {
@@ -1351,11 +1344,11 @@
           "tmin_f": 41.0,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.47,
+          "trailing_rain_14d_in": 0.41,
           "trailing_rain_3d_in": 0.33,
           "reasons": [
             "tmax 54\u00b0F < 55\u00b0F",
-            "14d rain 0.47\" < 1.0\""
+            "14d rain 0.41\" < 1.0\""
           ]
         },
         {
@@ -1364,10 +1357,10 @@
           "tmin_f": 44.5,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.47,
+          "trailing_rain_14d_in": 0.41,
           "trailing_rain_3d_in": 0.33,
           "reasons": [
-            "14d rain 0.47\" < 1.0\""
+            "14d rain 0.41\" < 1.0\""
           ]
         },
         {
@@ -1376,10 +1369,10 @@
           "tmin_f": 52.3,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.47,
+          "trailing_rain_14d_in": 0.41,
           "trailing_rain_3d_in": 0.0,
           "reasons": [
-            "14d rain 0.47\" < 1.0\"",
+            "14d rain 0.41\" < 1.0\"",
             "3d rain 0.00\" < 0.05\""
           ]
         },
@@ -1389,10 +1382,10 @@
           "tmin_f": 44.9,
           "precip_in": 0.059,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.53,
+          "trailing_rain_14d_in": 0.47,
           "trailing_rain_3d_in": 0.06,
           "reasons": [
-            "14d rain 0.53\" < 1.0\""
+            "14d rain 0.47\" < 1.0\""
           ]
         },
         {
@@ -1401,11 +1394,11 @@
           "tmin_f": 40.5,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.53,
+          "trailing_rain_14d_in": 0.47,
           "trailing_rain_3d_in": 0.06,
           "reasons": [
             "tmax 54\u00b0F < 55\u00b0F",
-            "14d rain 0.53\" < 1.0\""
+            "14d rain 0.47\" < 1.0\""
           ]
         },
         {
@@ -1414,15 +1407,15 @@
           "tmin_f": 37.3,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.53,
+          "trailing_rain_14d_in": 0.47,
           "trailing_rain_3d_in": 0.06,
           "reasons": [
-            "14d rain 0.53\" < 1.0\""
+            "14d rain 0.47\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-01",
-          "tmax_f": 65.8,
+          "tmax_f": 68.8,
           "tmin_f": 43.6,
           "precip_in": 0.0,
           "qualifies": false,
@@ -1435,8 +1428,8 @@
         },
         {
           "date": "2026-06-02",
-          "tmax_f": 73.0,
-          "tmin_f": 57.2,
+          "tmax_f": 72.4,
+          "tmin_f": 51.9,
           "precip_in": 0.0,
           "qualifies": false,
           "trailing_rain_14d_in": 0.39,
@@ -1448,66 +1441,73 @@
         },
         {
           "date": "2026-06-03",
-          "tmax_f": 65.0,
-          "tmin_f": 45.9,
-          "precip_in": 0.0,
+          "tmax_f": 62.6,
+          "tmin_f": 47.8,
+          "precip_in": 0.091,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.39,
-          "trailing_rain_3d_in": 0.0,
+          "trailing_rain_14d_in": 0.48,
+          "trailing_rain_3d_in": 0.09,
           "reasons": [
-            "14d rain 0.39\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\""
+            "14d rain 0.48\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-04",
-          "tmax_f": 63.7,
-          "tmin_f": 41.8,
-          "precip_in": 0.004,
+          "tmax_f": 62.6,
+          "tmin_f": 42.0,
+          "precip_in": 0.008,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.39,
-          "trailing_rain_3d_in": 0.0,
+          "trailing_rain_14d_in": 0.48,
+          "trailing_rain_3d_in": 0.1,
           "reasons": [
-            "14d rain 0.39\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\""
+            "14d rain 0.48\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-05",
-          "tmax_f": 54.2,
-          "tmin_f": 37.4,
-          "precip_in": 0.075,
+          "tmax_f": 49.0,
+          "tmin_f": 38.0,
+          "precip_in": 0.142,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.47,
-          "trailing_rain_3d_in": 0.08,
+          "trailing_rain_14d_in": 0.63,
+          "trailing_rain_3d_in": 0.24,
           "reasons": [
-            "tmax 54\u00b0F < 55\u00b0F",
-            "14d rain 0.47\" < 1.0\""
+            "tmax 49\u00b0F < 55\u00b0F",
+            "14d rain 0.63\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-06",
-          "tmax_f": 52.9,
-          "tmin_f": 34.7,
-          "precip_in": 0.094,
+          "tmax_f": 52.0,
+          "tmin_f": 35.6,
+          "precip_in": 0.469,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.56,
-          "trailing_rain_3d_in": 0.17,
+          "trailing_rain_14d_in": 1.1,
+          "trailing_rain_3d_in": 0.62,
           "reasons": [
-            "tmax 53\u00b0F < 55\u00b0F",
-            "14d rain 0.56\" < 1.0\""
+            "tmax 52\u00b0F < 55\u00b0F"
           ]
         },
         {
           "date": "2026-06-07",
-          "tmax_f": 59.0,
-          "tmin_f": 40.7,
+          "tmax_f": 59.4,
+          "tmin_f": 38.7,
+          "precip_in": 0.0,
+          "qualifies": true,
+          "trailing_rain_14d_in": 1.1,
+          "trailing_rain_3d_in": 0.61,
+          "reasons": []
+        },
+        {
+          "date": "2026-06-08",
+          "tmax_f": 64.4,
+          "tmin_f": 46.2,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.56,
-          "trailing_rain_3d_in": 0.17,
+          "trailing_rain_14d_in": 0.77,
+          "trailing_rain_3d_in": 0.47,
           "reasons": [
-            "14d rain 0.56\" < 1.0\""
+            "14d rain 0.77\" < 1.0\""
           ]
         }
       ],
@@ -1517,19 +1517,6 @@
     {
       "burn_id": "retreat",
       "days": [
-        {
-          "date": "2026-05-18",
-          "tmax_f": 57.9,
-          "tmin_f": 34.1,
-          "precip_in": 0.0,
-          "qualifies": false,
-          "trailing_rain_14d_in": 0.0,
-          "trailing_rain_3d_in": 0.0,
-          "reasons": [
-            "14d rain 0.00\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\""
-          ]
-        },
         {
           "date": "2026-05-19",
           "tmax_f": 57.3,
@@ -1703,7 +1690,7 @@
         },
         {
           "date": "2026-06-01",
-          "tmax_f": 65.3,
+          "tmax_f": 66.3,
           "tmin_f": 43.8,
           "precip_in": 0.0,
           "qualifies": false,
@@ -1716,8 +1703,8 @@
         },
         {
           "date": "2026-06-02",
-          "tmax_f": 70.7,
-          "tmin_f": 48.3,
+          "tmax_f": 65.1,
+          "tmin_f": 42.4,
           "precip_in": 0.0,
           "qualifies": false,
           "trailing_rain_14d_in": 0.09,
@@ -1729,67 +1716,86 @@
         },
         {
           "date": "2026-06-03",
-          "tmax_f": 58.8,
-          "tmin_f": 42.2,
-          "precip_in": 0.126,
+          "tmax_f": 59.9,
+          "tmin_f": 43.6,
+          "precip_in": 0.043,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.21,
-          "trailing_rain_3d_in": 0.13,
+          "trailing_rain_14d_in": 0.13,
+          "trailing_rain_3d_in": 0.04,
           "reasons": [
-            "14d rain 0.21\" < 1.0\""
+            "14d rain 0.13\" < 1.0\"",
+            "3d rain 0.04\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-04",
-          "tmax_f": 66.2,
-          "tmin_f": 37.4,
+          "tmax_f": 64.0,
+          "tmin_f": 35.2,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.21,
-          "trailing_rain_3d_in": 0.13,
+          "trailing_rain_14d_in": 0.13,
+          "trailing_rain_3d_in": 0.04,
           "reasons": [
-            "14d rain 0.21\" < 1.0\""
+            "14d rain 0.13\" < 1.0\"",
+            "3d rain 0.04\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-05",
-          "tmax_f": 64.9,
-          "tmin_f": 37.4,
+          "tmax_f": 56.1,
+          "tmin_f": 35.4,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.21,
-          "trailing_rain_3d_in": 0.13,
+          "trailing_rain_14d_in": 0.13,
+          "trailing_rain_3d_in": 0.04,
           "reasons": [
-            "14d rain 0.21\" < 1.0\""
+            "14d rain 0.13\" < 1.0\"",
+            "3d rain 0.04\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-06",
-          "tmax_f": 55.9,
-          "tmin_f": 32.0,
+          "tmax_f": 52.3,
+          "tmin_f": 29.6,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.21,
-          "trailing_rain_3d_in": 0.0,
-          "reasons": [
-            "tmin 32\u00b0F < 34\u00b0F",
-            "14d rain 0.21\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\""
-          ]
-        },
-        {
-          "date": "2026-06-07",
-          "tmax_f": 52.4,
-          "tmin_f": 30.5,
-          "precip_in": 0.0,
-          "qualifies": false,
-          "trailing_rain_14d_in": 0.21,
+          "trailing_rain_14d_in": 0.13,
           "trailing_rain_3d_in": 0.0,
           "reasons": [
             "tmax 52\u00b0F < 55\u00b0F",
             "tmin 30\u00b0F < 34\u00b0F",
-            "14d rain 0.21\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\""
+            "14d rain 0.13\" < 1.0\"",
+            "3d rain 0.00\" < 0.05\"",
+            "hard freeze in trailing 7d"
+          ]
+        },
+        {
+          "date": "2026-06-07",
+          "tmax_f": 56.9,
+          "tmin_f": 32.7,
+          "precip_in": 0.0,
+          "qualifies": false,
+          "trailing_rain_14d_in": 0.13,
+          "trailing_rain_3d_in": 0.0,
+          "reasons": [
+            "tmin 33\u00b0F < 34\u00b0F",
+            "14d rain 0.13\" < 1.0\"",
+            "3d rain 0.00\" < 0.05\"",
+            "hard freeze in trailing 7d"
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "tmax_f": 56.5,
+          "tmin_f": 41.8,
+          "precip_in": 0.0,
+          "qualifies": false,
+          "trailing_rain_14d_in": 0.1,
+          "trailing_rain_3d_in": 0.0,
+          "reasons": [
+            "14d rain 0.10\" < 1.0\"",
+            "3d rain 0.00\" < 0.05\"",
+            "hard freeze in trailing 7d"
           ]
         }
       ],
@@ -1799,22 +1805,6 @@
     {
       "burn_id": "pioneer",
       "days": [
-        {
-          "date": "2026-05-18",
-          "tmax_f": 46.9,
-          "tmin_f": 28.9,
-          "precip_in": 0.0,
-          "qualifies": false,
-          "trailing_rain_14d_in": 0.0,
-          "trailing_rain_3d_in": 0.0,
-          "reasons": [
-            "tmax 47\u00b0F < 55\u00b0F",
-            "tmin 29\u00b0F < 34\u00b0F",
-            "14d rain 0.00\" < 1.0\"",
-            "3d rain 0.00\" < 0.05\"",
-            "hard freeze in trailing 7d"
-          ]
-        },
         {
           "date": "2026-05-19",
           "tmax_f": 46.2,
@@ -2006,99 +1996,115 @@
         },
         {
           "date": "2026-06-01",
-          "tmax_f": 53.8,
+          "tmax_f": 53.1,
           "tmin_f": 37.5,
           "precip_in": 0.0,
           "qualifies": false,
           "trailing_rain_14d_in": 0.23,
           "trailing_rain_3d_in": 0.0,
           "reasons": [
-            "tmax 54\u00b0F < 55\u00b0F",
+            "tmax 53\u00b0F < 55\u00b0F",
             "14d rain 0.23\" < 1.0\"",
             "3d rain 0.00\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-02",
-          "tmax_f": 56.8,
-          "tmin_f": 41.9,
+          "tmax_f": 54.5,
+          "tmin_f": 38.4,
           "precip_in": 0.0,
           "qualifies": false,
           "trailing_rain_14d_in": 0.23,
           "trailing_rain_3d_in": 0.0,
           "reasons": [
+            "tmax 54\u00b0F < 55\u00b0F",
             "14d rain 0.23\" < 1.0\"",
             "3d rain 0.00\" < 0.05\""
           ]
         },
         {
           "date": "2026-06-03",
-          "tmax_f": 51.3,
-          "tmin_f": 36.1,
-          "precip_in": 0.272,
+          "tmax_f": 50.2,
+          "tmin_f": 37.1,
+          "precip_in": 0.213,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.51,
-          "trailing_rain_3d_in": 0.27,
+          "trailing_rain_14d_in": 0.45,
+          "trailing_rain_3d_in": 0.21,
           "reasons": [
-            "tmax 51\u00b0F < 55\u00b0F",
-            "14d rain 0.51\" < 1.0\""
+            "tmax 50\u00b0F < 55\u00b0F",
+            "14d rain 0.45\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-04",
-          "tmax_f": 54.0,
-          "tmin_f": 32.4,
+          "tmax_f": 51.8,
+          "tmin_f": 34.6,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.51,
-          "trailing_rain_3d_in": 0.27,
+          "trailing_rain_14d_in": 0.45,
+          "trailing_rain_3d_in": 0.21,
           "reasons": [
-            "tmax 54\u00b0F < 55\u00b0F",
-            "tmin 32\u00b0F < 34\u00b0F",
-            "14d rain 0.51\" < 1.0\""
+            "tmax 52\u00b0F < 55\u00b0F",
+            "14d rain 0.45\" < 1.0\""
           ]
         },
         {
           "date": "2026-06-05",
-          "tmax_f": 53.1,
-          "tmin_f": 30.4,
-          "precip_in": 0.075,
+          "tmax_f": 45.9,
+          "tmin_f": 29.3,
+          "precip_in": 0.094,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.58,
-          "trailing_rain_3d_in": 0.35,
+          "trailing_rain_14d_in": 0.54,
+          "trailing_rain_3d_in": 0.31,
           "reasons": [
-            "tmax 53\u00b0F < 55\u00b0F",
-            "tmin 30\u00b0F < 34\u00b0F",
-            "14d rain 0.58\" < 1.0\""
+            "tmax 46\u00b0F < 55\u00b0F",
+            "tmin 29\u00b0F < 34\u00b0F",
+            "14d rain 0.54\" < 1.0\"",
+            "hard freeze in trailing 7d"
           ]
         },
         {
           "date": "2026-06-06",
-          "tmax_f": 45.1,
-          "tmin_f": 24.3,
-          "precip_in": 0.02,
+          "tmax_f": 42.6,
+          "tmin_f": 25.3,
+          "precip_in": 0.039,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.6,
-          "trailing_rain_3d_in": 0.1,
+          "trailing_rain_14d_in": 0.58,
+          "trailing_rain_3d_in": 0.13,
           "reasons": [
-            "tmax 45\u00b0F < 55\u00b0F",
-            "tmin 24\u00b0F < 34\u00b0F",
-            "14d rain 0.60\" < 1.0\"",
+            "tmax 43\u00b0F < 55\u00b0F",
+            "tmin 25\u00b0F < 34\u00b0F",
+            "14d rain 0.58\" < 1.0\"",
             "hard freeze in trailing 7d"
           ]
         },
         {
           "date": "2026-06-07",
-          "tmax_f": 44.7,
-          "tmin_f": 23.4,
+          "tmax_f": 43.9,
+          "tmin_f": 25.0,
           "precip_in": 0.0,
           "qualifies": false,
-          "trailing_rain_14d_in": 0.6,
-          "trailing_rain_3d_in": 0.1,
+          "trailing_rain_14d_in": 0.58,
+          "trailing_rain_3d_in": 0.13,
           "reasons": [
-            "tmax 45\u00b0F < 55\u00b0F",
-            "tmin 23\u00b0F < 34\u00b0F",
-            "14d rain 0.60\" < 1.0\"",
+            "tmax 44\u00b0F < 55\u00b0F",
+            "tmin 25\u00b0F < 34\u00b0F",
+            "14d rain 0.58\" < 1.0\"",
+            "hard freeze in trailing 7d"
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "tmax_f": 55.4,
+          "tmin_f": 27.6,
+          "precip_in": 0.0,
+          "qualifies": false,
+          "trailing_rain_14d_in": 0.56,
+          "trailing_rain_3d_in": 0.04,
+          "reasons": [
+            "tmin 28\u00b0F < 34\u00b0F",
+            "14d rain 0.56\" < 1.0\"",
+            "3d rain 0.04\" < 0.05\"",
             "hard freeze in trailing 7d"
           ]
         }
