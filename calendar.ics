@@ -8,4 +8,14 @@ X-WR-TIMEZONE:America/Los_Angeles
 X-WR-CALDESC:Automated morel foraging windows based on burn scar weather analysis.
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:e48baf85f983fe38d451082cf2f5d58d@morel-monitor
+DTSTAMP:20260812T145216Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260818
+SUMMARY:🍄 Pioneer Fire — foraging window
+DESCRIPTION:Pioneer Fire — Lake Chelan\, N shore near Stehekin\nElevation: 1100–4000 ft\nWindow: 4 day(s)\nAvg daily high: 71°F\n14-day trailing rain (end of window): 1.25"\n\nDaily breakdown:\n  2026-08-14: 68/47°F\, 0.20" precip\, 14d=1.01"\n  2026-08-15: 68/46°F\, 0.23" precip\, 14d=1.24"\n  2026-08-16: 73/46°F\, 0.01" precip\, 14d=1.25"\n  2026-08-17: 75/48°F\, 0.00" precip\, 14d=1.25"\n\nGenerated 2026-08-12 by morel-monitor agent.
+LOCATION:Lake Chelan\, N shore near Stehekin
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
