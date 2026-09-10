@@ -8,4 +8,14 @@ X-WR-TIMEZONE:America/Los_Angeles
 X-WR-CALDESC:Automated morel foraging windows based on burn scar weather analysis.
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:554e8a19dcd86ea42ab166ac4b7b1ace@morel-monitor
+DTSTAMP:20260910T172640Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260915
+SUMMARY:🍄 Bear Gulch + Hamma Hamma — foraging window
+DESCRIPTION:Bear Gulch + Hamma Hamma — N Lake Cushman / Hamma Hamma\nElevation: 500–2500 ft\nWindow: 3 day(s)\nAvg daily high: 64°F\n14-day trailing rain (end of window): 1.08"\n\nDaily breakdown:\n  2026-09-12: 62/48°F\, 0.15" precip\, 14d=1.08"\n  2026-09-13: 64/43°F\, 0.00" precip\, 14d=1.08"\n  2026-09-14: 64/44°F\, 0.00" precip\, 14d=1.08"\n\nGenerated 2026-09-10 by morel-monitor agent.
+LOCATION:N Lake Cushman / Hamma Hamma
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
