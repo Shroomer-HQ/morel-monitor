@@ -1,8 +1,720 @@
 {
-  "generated_at_utc": "2026-09-10T17:26:40+00:00",
-  "generated_for_date": "2026-09-10",
-  "source": null,
+  "generated_at_utc": "2026-09-11T17:28:18+00:00",
+  "generated_for_date": "2026-09-11",
+  "source": "https://wdfw.wa.gov/fishing/shellfishing-regulations/razor-clams",
   "error": null,
-  "digs": [],
-  "note": "All sources failed; previous calendar.ics retained."
+  "digs": [
+    {
+      "date": "2026-10-11",
+      "weekday": "Sunday",
+      "low_tide_local": "7:39 PM",
+      "low_tide_24h": "19:39",
+      "low_tide_ft": -0.6,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-11T19:39:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 84.0,
+      "in_daylight": false,
+      "sunrise_local": "7:37 AM",
+      "sunset_local": "6:27 PM"
+    },
+    {
+      "date": "2026-10-12",
+      "weekday": "Monday",
+      "low_tide_local": "8:15 PM",
+      "low_tide_24h": "20:15",
+      "low_tide_ft": -0.6,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-12T20:15:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 84.0,
+      "in_daylight": false,
+      "sunrise_local": "7:38 AM",
+      "sunset_local": "6:25 PM"
+    },
+    {
+      "date": "2026-10-13",
+      "weekday": "Tuesday",
+      "low_tide_local": "8:52 PM",
+      "low_tide_24h": "20:52",
+      "low_tide_ft": -0.4,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-13T20:52:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 76.0,
+      "in_daylight": false,
+      "sunrise_local": "7:40 AM",
+      "sunset_local": "6:23 PM"
+    },
+    {
+      "date": "2026-10-14",
+      "weekday": "Wednesday",
+      "low_tide_local": "9:32 PM",
+      "low_tide_24h": "21:32",
+      "low_tide_ft": -0.1,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-14T21:32:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 64.0,
+      "in_daylight": false,
+      "sunrise_local": "7:41 AM",
+      "sunset_local": "6:21 PM"
+    },
+    {
+      "date": "2026-10-24",
+      "weekday": "Saturday",
+      "low_tide_local": "5:58 PM",
+      "low_tide_24h": "17:58",
+      "low_tide_ft": 0.1,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-24T17:58:00-07:00",
+      "priority": "standard",
+      "tide_score": 56.0,
+      "in_daylight": true,
+      "sunrise_local": "7:56 AM",
+      "sunset_local": "6:04 PM"
+    },
+    {
+      "date": "2026-10-25",
+      "weekday": "Sunday",
+      "low_tide_local": "6:37 PM",
+      "low_tide_24h": "18:37",
+      "low_tide_ft": -0.7,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-25T18:37:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 88.0,
+      "in_daylight": false,
+      "sunrise_local": "7:57 AM",
+      "sunset_local": "6:02 PM"
+    },
+    {
+      "date": "2026-10-26",
+      "weekday": "Monday",
+      "low_tide_local": "7:18 PM",
+      "low_tide_24h": "19:18",
+      "low_tide_ft": -1.2,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-26T19:18:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:59 AM",
+      "sunset_local": "6:00 PM"
+    },
+    {
+      "date": "2026-10-27",
+      "weekday": "Tuesday",
+      "low_tide_local": "8:01 PM",
+      "low_tide_24h": "20:01",
+      "low_tide_ft": -1.5,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-27T20:01:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "8:00 AM",
+      "sunset_local": "5:59 PM"
+    },
+    {
+      "date": "2026-10-28",
+      "weekday": "Wednesday",
+      "low_tide_local": "8:47 PM",
+      "low_tide_24h": "20:47",
+      "low_tide_ft": -1.5,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-28T20:47:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "8:02 AM",
+      "sunset_local": "5:57 PM"
+    },
+    {
+      "date": "2026-10-29",
+      "weekday": "Thursday",
+      "low_tide_local": "9:38 PM",
+      "low_tide_24h": "21:38",
+      "low_tide_ft": -1.2,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-29T21:38:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "8:03 AM",
+      "sunset_local": "5:56 PM"
+    },
+    {
+      "date": "2026-10-30",
+      "weekday": "Friday",
+      "low_tide_local": "10:34 PM",
+      "low_tide_24h": "22:34",
+      "low_tide_ft": -0.7,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-10-30T22:34:00-07:00",
+      "priority": "marginal (dark)",
+      "tide_score": 88.0,
+      "in_daylight": false,
+      "sunrise_local": "8:05 AM",
+      "sunset_local": "5:54 PM"
+    },
+    {
+      "date": "2026-11-07",
+      "weekday": "Saturday",
+      "low_tide_local": "5:06 PM",
+      "low_tide_24h": "17:06",
+      "low_tide_ft": -0.2,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-07T17:06:00-08:00",
+      "priority": "standard",
+      "tide_score": 68.0,
+      "in_daylight": true,
+      "sunrise_local": "7:17 AM",
+      "sunset_local": "4:43 PM"
+    },
+    {
+      "date": "2026-11-08",
+      "weekday": "Sunday",
+      "low_tide_local": "5:44 PM",
+      "low_tide_24h": "17:44",
+      "low_tide_ft": -0.6,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-08T17:44:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 84.0,
+      "in_daylight": false,
+      "sunrise_local": "7:18 AM",
+      "sunset_local": "4:42 PM"
+    },
+    {
+      "date": "2026-11-09",
+      "weekday": "Monday",
+      "low_tide_local": "6:19 PM",
+      "low_tide_24h": "18:19",
+      "low_tide_ft": -0.7,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-09T18:19:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 88.0,
+      "in_daylight": false,
+      "sunrise_local": "7:20 AM",
+      "sunset_local": "4:41 PM"
+    },
+    {
+      "date": "2026-11-10",
+      "weekday": "Tuesday",
+      "low_tide_local": "6:54 PM",
+      "low_tide_24h": "18:54",
+      "low_tide_ft": -0.7,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-10T18:54:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 88.0,
+      "in_daylight": false,
+      "sunrise_local": "7:21 AM",
+      "sunset_local": "4:39 PM"
+    },
+    {
+      "date": "2026-11-11",
+      "weekday": "Wednesday",
+      "low_tide_local": "7:29 PM",
+      "low_tide_24h": "19:29",
+      "low_tide_ft": -0.5,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-11T19:29:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 80.0,
+      "in_daylight": false,
+      "sunrise_local": "7:22 AM",
+      "sunset_local": "4:38 PM"
+    },
+    {
+      "date": "2026-11-12",
+      "weekday": "Thursday",
+      "low_tide_local": "8:07 PM",
+      "low_tide_24h": "20:07",
+      "low_tide_ft": -0.1,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-12T20:07:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 64.0,
+      "in_daylight": false,
+      "sunrise_local": "7:24 AM",
+      "sunset_local": "4:37 PM"
+    },
+    {
+      "date": "2026-11-22",
+      "weekday": "Sunday",
+      "low_tide_local": "4:33 PM",
+      "low_tide_24h": "16:33",
+      "low_tide_ft": -0.4,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-22T16:33:00-08:00",
+      "priority": "standard",
+      "tide_score": 76.0,
+      "in_daylight": true,
+      "sunrise_local": "7:38 AM",
+      "sunset_local": "4:28 PM"
+    },
+    {
+      "date": "2026-11-23",
+      "weekday": "Monday",
+      "low_tide_local": "5:18 PM",
+      "low_tide_24h": "17:18",
+      "low_tide_ft": -1.2,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-23T17:18:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:39 AM",
+      "sunset_local": "4:27 PM"
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "Tuesday",
+      "low_tide_local": "6:02 PM",
+      "low_tide_24h": "18:02",
+      "low_tide_ft": -1.7,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-24T18:02:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:40 AM",
+      "sunset_local": "4:26 PM"
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "Wednesday",
+      "low_tide_local": "6:48 PM",
+      "low_tide_24h": "18:48",
+      "low_tide_ft": -1.9,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-25T18:48:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:41 AM",
+      "sunset_local": "4:26 PM"
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "Thursday",
+      "low_tide_local": "7:35 PM",
+      "low_tide_24h": "19:35",
+      "low_tide_ft": -1.8,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-26T19:35:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:43 AM",
+      "sunset_local": "4:25 PM"
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "Friday",
+      "low_tide_local": "8:25 PM",
+      "low_tide_24h": "20:25",
+      "low_tide_ft": -1.4,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-27T20:25:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:44 AM",
+      "sunset_local": "4:25 PM"
+    },
+    {
+      "date": "2026-11-28",
+      "weekday": "Saturday",
+      "low_tide_local": "9:18 PM",
+      "low_tide_24h": "21:18",
+      "low_tide_ft": -0.8,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-28T21:18:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 92.0,
+      "in_daylight": false,
+      "sunrise_local": "7:45 AM",
+      "sunset_local": "4:24 PM"
+    },
+    {
+      "date": "2026-12-05",
+      "weekday": "Saturday",
+      "low_tide_local": "4:07 PM",
+      "low_tide_24h": "16:07",
+      "low_tide_ft": 0.3,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-05T16:07:00-08:00",
+      "priority": "standard",
+      "tide_score": 48.0,
+      "in_daylight": true,
+      "sunrise_local": "7:53 AM",
+      "sunset_local": "4:22 PM"
+    },
+    {
+      "date": "2026-12-06",
+      "weekday": "Sunday",
+      "low_tide_local": "4:49 PM",
+      "low_tide_24h": "16:49",
+      "low_tide_ft": -0.2,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-06T16:49:00-08:00",
+      "priority": "standard",
+      "tide_score": 68.0,
+      "in_daylight": true,
+      "sunrise_local": "7:54 AM",
+      "sunset_local": "4:22 PM"
+    },
+    {
+      "date": "2026-12-07",
+      "weekday": "Monday",
+      "low_tide_local": "5:27 PM",
+      "low_tide_24h": "17:27",
+      "low_tide_ft": -0.4,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-07T17:27:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 76.0,
+      "in_daylight": false,
+      "sunrise_local": "7:55 AM",
+      "sunset_local": "4:21 PM"
+    },
+    {
+      "date": "2026-12-08",
+      "weekday": "Tuesday",
+      "low_tide_local": "6:03 PM",
+      "low_tide_24h": "18:03",
+      "low_tide_ft": -0.5,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-08T18:03:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 80.0,
+      "in_daylight": false,
+      "sunrise_local": "7:56 AM",
+      "sunset_local": "4:21 PM"
+    },
+    {
+      "date": "2026-12-09",
+      "weekday": "Wednesday",
+      "low_tide_local": "6:37 PM",
+      "low_tide_24h": "18:37",
+      "low_tide_ft": -0.5,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-09T18:37:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 80.0,
+      "in_daylight": false,
+      "sunrise_local": "7:57 AM",
+      "sunset_local": "4:21 PM"
+    },
+    {
+      "date": "2026-12-10",
+      "weekday": "Thursday",
+      "low_tide_local": "7:12 PM",
+      "low_tide_24h": "19:12",
+      "low_tide_ft": -0.4,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-10T19:12:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 76.0,
+      "in_daylight": false,
+      "sunrise_local": "7:58 AM",
+      "sunset_local": "4:21 PM"
+    },
+    {
+      "date": "2026-12-11",
+      "weekday": "Friday",
+      "low_tide_local": "7:48 PM",
+      "low_tide_24h": "19:48",
+      "low_tide_ft": -0.2,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-11T19:48:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 68.0,
+      "in_daylight": false,
+      "sunrise_local": "7:58 AM",
+      "sunset_local": "4:21 PM"
+    },
+    {
+      "date": "2026-12-21",
+      "weekday": "Monday",
+      "low_tide_local": "4:13 PM",
+      "low_tide_24h": "16:13",
+      "low_tide_ft": -0.6,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-21T16:13:00-08:00",
+      "priority": "priority",
+      "tide_score": 84.0,
+      "in_daylight": true,
+      "sunrise_local": "8:05 AM",
+      "sunset_local": "4:24 PM"
+    },
+    {
+      "date": "2026-12-22",
+      "weekday": "Tuesday",
+      "low_tide_local": "5:02 PM",
+      "low_tide_24h": "17:02",
+      "low_tide_ft": -1.3,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-22T17:02:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "8:05 AM",
+      "sunset_local": "4:25 PM"
+    },
+    {
+      "date": "2026-12-23",
+      "weekday": "Wednesday",
+      "low_tide_local": "5:50 PM",
+      "low_tide_24h": "17:50",
+      "low_tide_ft": -1.8,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-23T17:50:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "8:06 AM",
+      "sunset_local": "4:25 PM"
+    },
+    {
+      "date": "2026-12-24",
+      "weekday": "Thursday",
+      "low_tide_local": "6:36 PM",
+      "low_tide_24h": "18:36",
+      "low_tide_ft": -1.9,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-24T18:36:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "8:06 AM",
+      "sunset_local": "4:26 PM"
+    },
+    {
+      "date": "2026-12-25",
+      "weekday": "Friday",
+      "low_tide_local": "7:23 PM",
+      "low_tide_24h": "19:23",
+      "low_tide_ft": -1.8,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-25T19:23:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "8:06 AM",
+      "sunset_local": "4:26 PM"
+    },
+    {
+      "date": "2026-12-26",
+      "weekday": "Saturday",
+      "low_tide_local": "8:09 PM",
+      "low_tide_24h": "20:09",
+      "low_tide_ft": -1.4,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-26T20:09:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "8:07 AM",
+      "sunset_local": "4:27 PM"
+    },
+    {
+      "date": "2026-12-27",
+      "weekday": "Sunday",
+      "low_tide_local": "8:55 PM",
+      "low_tide_24h": "20:55",
+      "low_tide_ft": -0.7,
+      "beaches": [
+        "Long Beach",
+        "Twin Harbors",
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-12-27T20:55:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 88.0,
+      "in_daylight": false,
+      "sunrise_local": "8:07 AM",
+      "sunset_local": "4:28 PM"
+    }
+  ]
 }
