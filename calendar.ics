@@ -9,22 +9,22 @@ X-WR-CALDESC:Automated morel foraging windows based on burn scar weather analysi
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:21ac3f19bdbfec63d8184c5baaaa81fd@morel-monitor
-DTSTAMP:20260911T172817Z
+UID:26371ae01bda43aaf5b008b5fb869da9@morel-monitor
+DTSTAMP:20260912T164059Z
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260916
-SUMMARY:🍄 Lower Sugarloaf + Second Creek — foraging window
-DESCRIPTION:Lower Sugarloaf + Second Creek — NE of Leavenworth\, Chumstick Valley\nElevation: 1500–5000 ft\nWindow: 3 day(s)\nAvg daily high: 66°F\n14-day trailing rain (end of window): 1.40"\n\nDaily breakdown:\n  2026-09-13: 56/49°F\, 1.20" precip\, 14d=1.40"\n  2026-09-14: 71/44°F\, 0.00" precip\, 14d=1.40"\n  2026-09-15: 70/47°F\, 0.00" precip\, 14d=1.40"\n\nGenerated 2026-09-11 by morel-monitor agent.
-LOCATION:NE of Leavenworth\, Chumstick Valley
+SUMMARY:🍄 Labor Mountain Fire — foraging window
+DESCRIPTION:Labor Mountain Fire — N of Teanaway\nElevation: 2000–4500 ft\nWindow: 3 day(s)\nAvg daily high: 64°F\n14-day trailing rain (end of window): 1.01"\n\nDaily breakdown:\n  2026-09-13: 58/51°F\, 0.94" precip\, 14d=1.01"\n  2026-09-14: 65/45°F\, 0.00" precip\, 14d=1.01"\n  2026-09-15: 69/46°F\, 0.00" precip\, 14d=1.01"\n\nGenerated 2026-09-12 by morel-monitor agent.
+LOCATION:N of Teanaway
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:554e8a19dcd86ea42ab166ac4b7b1ace@morel-monitor
-DTSTAMP:20260911T172817Z
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260915
+UID:791d06ba4d430b6b0b85049553a84a12@morel-monitor
+DTSTAMP:20260912T164059Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260916
 SUMMARY:🍄 Bear Gulch + Hamma Hamma — foraging window
-DESCRIPTION:Bear Gulch + Hamma Hamma — N Lake Cushman / Hamma Hamma\nElevation: 500–2500 ft\nWindow: 3 day(s)\nAvg daily high: 63°F\n14-day trailing rain (end of window): 1.06"\n\nDaily breakdown:\n  2026-09-12: 61/48°F\, 0.08" precip\, 14d=1.02"\n  2026-09-13: 64/45°F\, 0.04" precip\, 14d=1.06"\n  2026-09-14: 63/44°F\, 0.00" precip\, 14d=1.06"\n\nGenerated 2026-09-11 by morel-monitor agent.
+DESCRIPTION:Bear Gulch + Hamma Hamma — N Lake Cushman / Hamma Hamma\nElevation: 500–2500 ft\nWindow: 3 day(s)\nAvg daily high: 64°F\n14-day trailing rain (end of window): 1.06"\n\nDaily breakdown:\n  2026-09-13: 65/51°F\, 0.10" precip\, 14d=1.06"\n  2026-09-14: 60/43°F\, 0.00" precip\, 14d=1.06"\n  2026-09-15: 67/45°F\, 0.00" precip\, 14d=1.06"\n\nGenerated 2026-09-12 by morel-monitor agent.
 LOCATION:N Lake Cushman / Hamma Hamma
 TRANSP:TRANSPARENT
 END:VEVENT
