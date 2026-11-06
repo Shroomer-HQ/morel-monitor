@@ -10,51 +10,51 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:b9a23e77bd2a5a338cc5507aaaefa678@morel-monitor
-DTSTAMP:20261105T205421Z
+DTSTAMP:20261106T201221Z
 DTSTART:20261107T230600Z
 DTEND:20261108T020600Z
 SUMMARY:🌊 Razor clams — Mocrocks [standard]
-DESCRIPTION:Low tide: 5:06 PM @ -0.2 ft\nDaylight: 7:17 AM — 4:43 PM\nDig falls in: daylight\nPriority: standard (tide score 68.0/100)\nBeaches: Mocrocks\nRecommended window: 3:06 PM–6:06 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-05 by razor-clam-monitor.
+DESCRIPTION:Low tide: 5:06 PM @ -0.2 ft\nDaylight: 7:17 AM — 4:43 PM\nDig falls in: daylight\nPriority: standard (tide score 68.0/100)\nBeaches: Mocrocks\nRecommended window: 3:06 PM–6:06 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-06 by razor-clam-monitor.
 LOCATION:Mocrocks\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:249c08f7a4ecf81f5b86c36c42e43484@morel-monitor
-DTSTAMP:20261105T205421Z
+DTSTAMP:20261106T201221Z
 DTSTART:20261108T234400Z
 DTEND:20261109T024400Z
 SUMMARY:🌙 Razor clams — Copalis [marginal (dark)]
-DESCRIPTION:Low tide: 5:44 PM @ -0.6 ft\nDaylight: 7:18 AM — 4:42 PM\nDig falls in: darkness\nPriority: marginal (dark) (tide score 84.0/100)\nBeaches: Copalis\nRecommended window: 3:44 PM–6:44 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-05 by razor-clam-monitor.
+DESCRIPTION:Low tide: 5:44 PM @ -0.6 ft\nDaylight: 7:18 AM — 4:42 PM\nDig falls in: darkness\nPriority: marginal (dark) (tide score 84.0/100)\nBeaches: Copalis\nRecommended window: 3:44 PM–6:44 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-06 by razor-clam-monitor.
 LOCATION:Copalis\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:79e69a391707954e1360e76dc4e1cd0c@morel-monitor
-DTSTAMP:20261105T205421Z
+DTSTAMP:20261106T201221Z
 DTSTART:20261110T001900Z
 DTEND:20261110T031900Z
 SUMMARY:🌙 Razor clams — Copalis [marginal (dark)]
-DESCRIPTION:Low tide: 6:19 PM @ -0.7 ft\nDaylight: 7:20 AM — 4:41 PM\nDig falls in: darkness\nPriority: marginal (dark) (tide score 88.0/100)\nBeaches: Copalis\nRecommended window: 4:19 PM–7:19 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-05 by razor-clam-monitor.
+DESCRIPTION:Low tide: 6:19 PM @ -0.7 ft\nDaylight: 7:20 AM — 4:41 PM\nDig falls in: darkness\nPriority: marginal (dark) (tide score 88.0/100)\nBeaches: Copalis\nRecommended window: 4:19 PM–7:19 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-06 by razor-clam-monitor.
 LOCATION:Copalis\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:9c561df9d62668a0bb8ff39402633c97@morel-monitor
-DTSTAMP:20261105T205421Z
+DTSTAMP:20261106T201221Z
 DTSTART:20261111T005400Z
 DTEND:20261111T035400Z
 SUMMARY:🌙 Razor clams — Mocrocks [marginal (dark)]
-DESCRIPTION:Low tide: 6:54 PM @ -0.7 ft\nDaylight: 7:21 AM — 4:39 PM\nDig falls in: darkness\nPriority: marginal (dark) (tide score 88.0/100)\nBeaches: Mocrocks\nRecommended window: 4:54 PM–7:54 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-05 by razor-clam-monitor.
+DESCRIPTION:Low tide: 6:54 PM @ -0.7 ft\nDaylight: 7:21 AM — 4:39 PM\nDig falls in: darkness\nPriority: marginal (dark) (tide score 88.0/100)\nBeaches: Mocrocks\nRecommended window: 4:54 PM–7:54 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-06 by razor-clam-monitor.
 LOCATION:Mocrocks\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:ce2d7a8acb1777acd4d9454929dadf5f@morel-monitor
-DTSTAMP:20261105T205421Z
+DTSTAMP:20261106T201221Z
 DTSTART:20261112T012900Z
 DTEND:20261112T042900Z
 SUMMARY:🌙 Razor clams — Mocrocks [marginal (dark)]
-DESCRIPTION:Low tide: 7:29 PM @ -0.5 ft\nDaylight: 7:22 AM — 4:38 PM\nDig falls in: darkness\nPriority: marginal (dark) (tide score 80.0/100)\nBeaches: Mocrocks\nRecommended window: 5:29 PM–8:29 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-05 by razor-clam-monitor.
+DESCRIPTION:Low tide: 7:29 PM @ -0.5 ft\nDaylight: 7:22 AM — 4:38 PM\nDig falls in: darkness\nPriority: marginal (dark) (tide score 80.0/100)\nBeaches: Mocrocks\nRecommended window: 5:29 PM–8:29 PM\n\nStatus: WDFW-announced. Final approval depends on marine toxin (domoic acid)\ntesting — usually confirmed a few days before the dig date.\n\nGenerated 2026-11-06 by razor-clam-monitor.
 LOCATION:Mocrocks\, Washington coast
 TRANSP:OPAQUE
 END:VEVENT
