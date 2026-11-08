@@ -1,26 +1,9 @@
 {
-  "generated_at_utc": "2026-11-07T18:26:03+00:00",
-  "generated_for_date": "2026-11-07",
+  "generated_at_utc": "2026-11-08T18:36:57+00:00",
+  "generated_for_date": "2026-11-08",
   "source": "https://razorclamsociety.org/dig-dates-time/",
   "error": null,
   "digs": [
-    {
-      "date": "2026-11-07",
-      "weekday": "Saturday",
-      "low_tide_local": "5:06 PM",
-      "low_tide_24h": "17:06",
-      "low_tide_ft": -0.2,
-      "beaches": [
-        "Mocrocks"
-      ],
-      "series": "evening",
-      "datetime_iso": "2026-11-07T17:06:00-08:00",
-      "priority": "standard",
-      "tide_score": 68.0,
-      "in_daylight": true,
-      "sunrise_local": "7:17 AM",
-      "sunset_local": "4:43 PM"
-    },
     {
       "date": "2026-11-08",
       "weekday": "Sunday",
