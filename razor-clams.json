@@ -1,26 +1,9 @@
 {
-  "generated_at_utc": "2026-11-08T18:36:57+00:00",
-  "generated_for_date": "2026-11-08",
+  "generated_at_utc": "2026-11-09T23:14:53+00:00",
+  "generated_for_date": "2026-11-09",
   "source": "https://razorclamsociety.org/dig-dates-time/",
   "error": null,
   "digs": [
-    {
-      "date": "2026-11-08",
-      "weekday": "Sunday",
-      "low_tide_local": "5:44 PM",
-      "low_tide_24h": "17:44",
-      "low_tide_ft": -0.6,
-      "beaches": [
-        "Copalis"
-      ],
-      "series": "evening",
-      "datetime_iso": "2026-11-08T17:44:00-08:00",
-      "priority": "marginal (dark)",
-      "tide_score": 84.0,
-      "in_daylight": false,
-      "sunrise_local": "7:18 AM",
-      "sunset_local": "4:42 PM"
-    },
     {
       "date": "2026-11-09",
       "weekday": "Monday",
