@@ -1,8 +1,93 @@
 {
-  "generated_at_utc": "2026-11-16T23:11:52+00:00",
-  "generated_for_date": "2026-11-16",
-  "source": null,
+  "generated_at_utc": "2026-11-17T22:01:28+00:00",
+  "generated_for_date": "2026-11-17",
+  "source": "https://razorclamsociety.org/dig-dates-time/",
   "error": null,
-  "digs": [],
-  "note": "All sources failed; previous calendar.ics retained."
+  "digs": [
+    {
+      "date": "2026-11-24",
+      "weekday": "Tuesday",
+      "low_tide_local": "6:02 PM",
+      "low_tide_24h": "18:02",
+      "low_tide_ft": -1.7,
+      "beaches": [
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-24T18:02:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:40 AM",
+      "sunset_local": "4:26 PM"
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "Wednesday",
+      "low_tide_local": "6:48 PM",
+      "low_tide_24h": "18:48",
+      "low_tide_ft": -1.9,
+      "beaches": [
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-25T18:48:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:41 AM",
+      "sunset_local": "4:26 PM"
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "Thursday",
+      "low_tide_local": "7:35 PM",
+      "low_tide_24h": "19:35",
+      "low_tide_ft": -1.8,
+      "beaches": [
+        "Copalis"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-26T19:35:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:43 AM",
+      "sunset_local": "4:25 PM"
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "Friday",
+      "low_tide_local": "8:25 PM",
+      "low_tide_24h": "20:25",
+      "low_tide_ft": -1.4,
+      "beaches": [
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-27T20:25:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 100.0,
+      "in_daylight": false,
+      "sunrise_local": "7:44 AM",
+      "sunset_local": "4:25 PM"
+    },
+    {
+      "date": "2026-11-28",
+      "weekday": "Saturday",
+      "low_tide_local": "9:18 PM",
+      "low_tide_24h": "21:18",
+      "low_tide_ft": -0.8,
+      "beaches": [
+        "Mocrocks"
+      ],
+      "series": "evening",
+      "datetime_iso": "2026-11-28T21:18:00-08:00",
+      "priority": "marginal (dark)",
+      "tide_score": 92.0,
+      "in_daylight": false,
+      "sunrise_local": "7:45 AM",
+      "sunset_local": "4:24 PM"
+    }
+  ]
 }

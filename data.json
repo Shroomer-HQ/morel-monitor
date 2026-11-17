@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-16T23:11:51+00:00",
-  "generated_for_date": "2026-11-16",
+  "generated_at_utc": "2026-11-17T22:01:28+00:00",
+  "generated_for_date": "2026-11-17",
   "timezone": "America/Los_Angeles",
   "criteria": {
     "_comment": "Qualifying criteria for a morel foraging day. A day 'qualifies' if ALL conditions are met. A 'window' is 3+ consecutive qualifying days. Temperatures in \u00b0F, rainfall in inches.",
